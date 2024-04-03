@@ -7,6 +7,9 @@ namespace AStar.Infrastructure.Models;
 /// </summary>
 public class FileDetail
 {
+    /// <summary>
+    /// The default constructor.
+    /// </summary>
     public FileDetail()
     {
     }

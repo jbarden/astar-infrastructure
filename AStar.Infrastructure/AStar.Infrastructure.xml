@@ -4,9 +4,48 @@
         <name>AStar.Infrastructure</name>
     </assembly>
     <members>
+        <member name="T:AStar.Infrastructure.Data.FilesContext">
+            <summary>
+            The FileContext class/
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Data.FilesContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            The overriden OnConfiguring method.
+            </summary>
+            <param name="optionsBuilder">
+            </param>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.FilesContext.Files">
+            <summary>
+            The list of files in the dB.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.FilesContext.Tags">
+            <summary>
+            The list of tags to ignore
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.FilesContext.TagsToIgnoreCompletely">
+            <summary>
+            The list of tags to ignore completely.
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Data.FilesContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            The overriden OnModelCreating method.
+            </summary>
+            <param name="modelBuilder">
+            </param>
+        </member>
         <member name="T:AStar.Infrastructure.Models.FileDetail">
             <summary>
             The FileDetail class containing the current properties
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileDetail.#ctor">
+            <summary>
+            The default constructor.
             </summary>
         </member>
         <member name="M:AStar.Infrastructure.Models.FileDetail.#ctor(System.IO.FileInfo)">
@@ -65,6 +104,16 @@
         <member name="P:AStar.Infrastructure.Models.FileDetail.SoftDeleted">
             <summary>
             Gets or sets whether the file has been 'soft deleted'. I know, shocking...
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.Tag">
+            <summary>
+            The Tag class.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.Tag.Value">
+            <summary>
+            Gets or sets the value of the Tag. I know, shocking...
             </summary>
         </member>
     </members>
