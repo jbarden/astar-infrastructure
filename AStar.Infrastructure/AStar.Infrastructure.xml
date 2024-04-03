@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AStar.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:AStar.Infrastructure.Models.FileDetail">
+            <summary>
+            The FileDetail class containing the current properties
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileDetail.#ctor(System.IO.FileInfo)">
+            <summary>
+            The copy constuctor that allows for passing an instance of FileInfo to this class, simplifying consumer code.
+            </summary>
+            <param name="fileInfo">
+            The instance of FileInfo to use.
+            </param>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.FileName">
+            <summary>
+            Gets or sets the file name. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.IsImage">
+            <summary>
+            Do not use, will be removed soon.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.IsImage2">
+            <summary>
+            Returns trur when the file is of a supported image type.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.DetailsLastUpdated">
+            <summary>
+            Gets or sets the date the file details were last updated. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.LastViewed">
+            <summary>
+            Gets or sets the date the file wase last viewed. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.DirectoryName">
+            <summary>
+            Gets or sets the name of the directory containing the file detail. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.Height">
+            <summary>
+            Gets or sets the height of the image. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.Width">
+            <summary>
+            Gets or sets the width of the image. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.FileSize">
+            <summary>
+            Gets or sets the file size. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.SoftDeleted">
+            <summary>
+            Gets or sets whether the file has been 'soft deleted'. I know, shocking...
+            </summary>
+        </member>
+    </members>
+</doc>
