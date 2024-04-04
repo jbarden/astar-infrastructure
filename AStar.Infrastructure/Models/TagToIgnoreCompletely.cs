@@ -1,12 +1,12 @@
 ﻿namespace AStar.Infrastructure.Models;
 
 /// <summary>
-/// The Tag class.
+/// The TagToIgnoreCompletely class.
 /// </summary>
-public class Tag
+public class TagToIgnoreCompletely
 {
     /// <summary>
-    /// Gets or sets the value of the Tag. I know, shocking...
+    /// Gets or sets the value of the tag to ignore completely. I know, shocking...
     /// </summary>
     public string Value { get; set; } = string.Empty;
 }

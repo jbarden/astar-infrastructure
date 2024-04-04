@@ -21,9 +21,9 @@
             The list of files in the dB.
             </summary>
         </member>
-        <member name="P:AStar.Infrastructure.Data.FilesContext.Tags">
+        <member name="P:AStar.Infrastructure.Data.FilesContext.TagsToIgnore">
             <summary>
-            The list of tags to ignore
+            The list of tags to ignore.
             </summary>
         </member>
         <member name="P:AStar.Infrastructure.Data.FilesContext.TagsToIgnoreCompletely">
@@ -37,6 +37,18 @@
             </summary>
             <param name="modelBuilder">
             </param>
+        </member>
+        <member name="T:AStar.Infrastructure.Migrations.AddTagTables">
+            <inheritdoc />
+        </member>
+        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
         </member>
         <member name="T:AStar.Infrastructure.Models.FileDetail">
             <summary>
@@ -106,14 +118,24 @@
             Gets or sets whether the file has been 'soft deleted'. I know, shocking...
             </summary>
         </member>
-        <member name="T:AStar.Infrastructure.Models.Tag">
+        <member name="T:AStar.Infrastructure.Models.TagToIgnore">
             <summary>
-            The Tag class.
+            The TagToIgnore class.
             </summary>
         </member>
-        <member name="P:AStar.Infrastructure.Models.Tag.Value">
+        <member name="P:AStar.Infrastructure.Models.TagToIgnore.Value">
             <summary>
-            Gets or sets the value of the Tag. I know, shocking...
+            Gets or sets the value of the tag to ignore. I know, shocking...
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.TagToIgnoreCompletely">
+            <summary>
+            The TagToIgnoreCompletely class.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.TagToIgnoreCompletely.Value">
+            <summary>
+            Gets or sets the value of the tag to ignore completely. I know, shocking...
             </summary>
         </member>
     </members>

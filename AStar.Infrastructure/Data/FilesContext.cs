@@ -24,12 +24,12 @@ public class FilesContext : DbContext
     /// <summary>
     /// The list of tags to ignore.
     /// </summary>
-    public DbSet<Tag> TagsToIgnore { get; set; } = null!;
+    public DbSet<TagToIgnore> TagsToIgnore { get; set; } = null!;
 
     /// <summary>
     /// The list of tags to ignore completely.
     /// </summary>
-    public DbSet<Tag> TagsToIgnoreCompletely { get; set; } = null!;
+    public DbSet<TagToIgnoreCompletely> TagsToIgnoreCompletely { get; set; } = null!;
 
     /// <summary>
     /// The overriden OnModelCreating method.
@@ -37,5 +37,9 @@ public class FilesContext : DbContext
     /// <param name="modelBuilder">
     /// </param>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
-        => _ = modelBuilder.Entity<FileDetail>().HasKey(vf => new { vf.FileName, vf.DirectoryName });
+    {
+        _ = modelBuilder.Entity<FileDetail>().HasKey(vf => new { vf.FileName, vf.DirectoryName });
+        _ = modelBuilder.Entity<TagToIgnore>().HasKey(tag => tag.Value);
+        _ = modelBuilder.Entity<TagToIgnoreCompletely>().HasKey(tag => tag.Value);
+    }
 }
