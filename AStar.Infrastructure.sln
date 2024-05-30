@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AStar.Infrastructure", "AStar.Infrastructure\AStar.Infrastructure.csproj", "{94065FBE-AE4E-4A6A-B610-F4F2254F0E0F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F9EB241-1555-41EE-A678-8256EB91572E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{C092A988-E9A2-437B-A85A-A044BB41C998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AStar.Infrastructure", "src\AStar.Infrastructure\AStar.Infrastructure.csproj", "{86B30BEE-234C-4D3E-AEE7-772894B5A211}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "src\ConsoleApp\ConsoleApp.csproj", "{E10B3483-1647-4D97-B7A9-6165DBC4A404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7316F4C-1F0C-4005-B2C4-A43779AA3AE6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		CodeMaid.config = CodeMaid.config
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +23,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94065FBE-AE4E-4A6A-B610-F4F2254F0E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94065FBE-AE4E-4A6A-B610-F4F2254F0E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94065FBE-AE4E-4A6A-B610-F4F2254F0E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94065FBE-AE4E-4A6A-B610-F4F2254F0E0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C092A988-E9A2-437B-A85A-A044BB41C998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C092A988-E9A2-437B-A85A-A044BB41C998}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C092A988-E9A2-437B-A85A-A044BB41C998}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C092A988-E9A2-437B-A85A-A044BB41C998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B30BEE-234C-4D3E-AEE7-772894B5A211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B30BEE-234C-4D3E-AEE7-772894B5A211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B30BEE-234C-4D3E-AEE7-772894B5A211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B30BEE-234C-4D3E-AEE7-772894B5A211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E10B3483-1647-4D97-B7A9-6165DBC4A404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10B3483-1647-4D97-B7A9-6165DBC4A404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10B3483-1647-4D97-B7A9-6165DBC4A404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10B3483-1647-4D97-B7A9-6165DBC4A404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86B30BEE-234C-4D3E-AEE7-772894B5A211} = {0F9EB241-1555-41EE-A678-8256EB91572E}
+		{E10B3483-1647-4D97-B7A9-6165DBC4A404} = {0F9EB241-1555-41EE-A678-8256EB91572E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BC1602D-6315-4B25-94D3-060B864B7B2A}
