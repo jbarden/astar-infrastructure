@@ -42,38 +42,53 @@
         </member>
         <member name="M:AStar.Infrastructure.Data.FilesContextExtensions.FilterBySearchFolder(Microsoft.EntityFrameworkCore.DbSet{AStar.Infrastructure.Models.FileDetail},System.String,System.Boolean,System.Threading.CancellationToken)">
             <summary>
+            The FilterBySearchFolder method will return the files matching the specified criteria.
             </summary>
             <param name="files">
+            The list of files to filter.
             </param>
             <param name="startingFolder">
+            The starting folder for the filter to be applied from.
             </param>
             <param name="recursive">
+            A boolean to control whether the filter is applied recursively or not.
             </param>
             <param name="cancellationToken">
+            An instance of <see href="CancellationToken"></see> to cancel the filter when requested.
             </param>
             <returns>
+            The original list of files for further filtering.
             </returns>
         </member>
         <member name="M:AStar.Infrastructure.Data.FilesContextExtensions.GetMatchingFiles(Microsoft.EntityFrameworkCore.DbSet{AStar.Infrastructure.Models.FileDetail},System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)">
             <summary>
             </summary>
             <param name="files">
+            The list of files to filter.
             </param>
             <param name="startingFolder">
+            The starting folder for the filter to be applied from.
             </param>
             <param name="recursive">
+            A boolean to control whether the filter is applied recursively or not.
             </param>
             <param name="searchType">
+            A string representation of the required Search Type.
             </param>
             <param name="includeSoftDeleted">
+            A boolean to control whether the filter includes files marked as Soft Deleted or not.
             </param>
             <param name="includeMarkedForDeletion">
+            A boolean to control whether the filter includes files marked Marked for Deletion or not.
             </param>
             <param name="excludeViewed">
+            A boolean to control whether the filter includes files recently viewed or not.
             </param>
             <param name="cancellationToken">
+            An instance of <see href="CancellationToken"></see> to cancel the filter when requested.
             </param>
             <returns>
+            The original list of files for further filtering.
             </returns>
         </member>
         <member name="T:AStar.Infrastructure.EnumerableExtensions">
@@ -207,7 +222,7 @@
         </member>
         <member name="P:AStar.Infrastructure.Models.FileDetail.LastViewed">
             <summary>
-            Gets or sets the date the file wase last viewed. I know, shocking...
+            Gets or sets the date the file was last viewed. I know, shocking...
             </summary>
         </member>
         <member name="P:AStar.Infrastructure.Models.FileDetail.DirectoryName">
@@ -309,6 +324,7 @@
         </member>
         <member name="T:AStar.Infrastructure.Models.FileSizeEqualityComparer">
             <summary>
+            The <see href="FileSizeEqualityComparer"></see> class that defines how the file sizes are deemed to be equal.
             </summary>
         </member>
         <member name="M:AStar.Infrastructure.Models.FileSizeEqualityComparer.Equals(AStar.Infrastructure.Models.FileSize,AStar.Infrastructure.Models.FileSize)">
@@ -338,11 +354,12 @@
         </member>
         <member name="T:AStar.Infrastructure.Models.SortOrder">
             <summary>
+            The currently supported SortOrders.
             </summary>
         </member>
         <member name="T:AStar.Infrastructure.Models.TagToIgnore">
             <summary>
-            The TagToIgnore class.
+            The <see href="TagToIgnore"></see> class.
             </summary>
         </member>
         <member name="P:AStar.Infrastructure.Models.TagToIgnore.Value">
@@ -360,7 +377,7 @@
         </member>
         <member name="T:AStar.Infrastructure.Models.TagToIgnoreCompletely">
             <summary>
-            The TagToIgnoreCompletely class.
+            The <see href="TagToIgnoreCompletely"></see> class.
             </summary>
         </member>
         <member name="P:AStar.Infrastructure.Models.TagToIgnoreCompletely.Value">

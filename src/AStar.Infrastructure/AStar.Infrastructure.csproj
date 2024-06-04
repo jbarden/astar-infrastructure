@@ -19,12 +19,15 @@
 		<RepositoryUrl>https://github.com/jbarden/astar-infrastructure.git</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageProjectUrl>https://github.com/jbarden/astar-infrastructure</PackageProjectUrl>
-		<Description>This package contains the FilesContext.</Description>
+		<Description>This package contains the FilesContext as well as a set of extensions
+to support fluent filtering.</Description>
 		<Version>1.1.0</Version>
 		<Authors>Jason Barden</Authors>
 		<DocumentationFile>$(AssemblyName).xml</DocumentationFile>
 		<PackageIcon>AStar.png</PackageIcon>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageReleaseNotes>This version adds the extensions and supporting tests. There may be breaking changes
+as the NuGet is intended for internal use only and has not been compared to the previous version.</PackageReleaseNotes>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

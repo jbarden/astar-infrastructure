@@ -3,6 +3,7 @@
 namespace AStar.Infrastructure.Models;
 
 /// <summary>
+/// The currently supported SortOrders.
 /// </summary>
 [JsonConverter(typeof(JsonStringEnumConverter<SortOrder>))]
 public enum SortOrder

@@ -3,7 +3,7 @@
 namespace AStar.Infrastructure.Models;
 
 /// <summary>
-/// The TagToIgnore class.
+/// The <see href="TagToIgnore"></see> class.
 /// </summary>
 public class TagToIgnore
 {

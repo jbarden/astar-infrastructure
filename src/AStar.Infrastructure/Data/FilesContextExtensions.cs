@@ -9,16 +9,22 @@ namespace AStar.Infrastructure.Data;
 public static class FilesContextExtensions
 {
     /// <summary>
+    /// The FilterBySearchFolder method will return the files matching the specified criteria.
     /// </summary>
     /// <param name="files">
+    /// The list of files to filter.
     /// </param>
     /// <param name="startingFolder">
+    /// The starting folder for the filter to be applied from.
     /// </param>
     /// <param name="recursive">
+    /// A boolean to control whether the filter is applied recursively or not.
     /// </param>
     /// <param name="cancellationToken">
+    /// An instance of <see href="CancellationToken"></see> to cancel the filter when requested.
     /// </param>
     /// <returns>
+    /// The original list of files for further filtering.
     /// </returns>
     public static IEnumerable<FileDetail> FilterBySearchFolder(this DbSet<FileDetail> files, string startingFolder, bool recursive, CancellationToken cancellationToken)
             => cancellationToken.IsCancellationRequested
@@ -28,22 +34,31 @@ public static class FilesContextExtensions
     /// <summary>
     /// </summary>
     /// <param name="files">
+    /// The list of files to filter.
     /// </param>
     /// <param name="startingFolder">
+    /// The starting folder for the filter to be applied from.
     /// </param>
     /// <param name="recursive">
+    /// A boolean to control whether the filter is applied recursively or not.
     /// </param>
     /// <param name="searchType">
+    /// A string representation of the required Search Type.
     /// </param>
     /// <param name="includeSoftDeleted">
+    /// A boolean to control whether the filter includes files marked as Soft Deleted or not.
     /// </param>
     /// <param name="includeMarkedForDeletion">
+    /// A boolean to control whether the filter includes files marked Marked for Deletion or not.
     /// </param>
     /// <param name="excludeViewed">
+    /// A boolean to control whether the filter includes files recently viewed or not.
     /// </param>
     /// <param name="cancellationToken">
+    /// An instance of <see href="CancellationToken"></see> to cancel the filter when requested.
     /// </param>
     /// <returns>
+    /// The original list of files for further filtering.
     /// </returns>
     public static IEnumerable<FileDetail> GetMatchingFiles(this DbSet<FileDetail> files, string startingFolder, bool recursive, string searchType, bool includeSoftDeleted, bool includeMarkedForDeletion, bool excludeViewed, CancellationToken cancellationToken)
                                                 => files

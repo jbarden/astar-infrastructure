@@ -51,7 +51,7 @@ public class FileDetail
     public DateTime? DetailsLastUpdated { get; set; }
 
     /// <summary>
-    /// Gets or sets the date the file wase last viewed. I know, shocking...
+    /// Gets or sets the date the file was last viewed. I know, shocking...
     /// </summary>
     public DateTime? LastViewed { get; set; }
 

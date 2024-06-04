@@ -1,6 +1,7 @@
 ﻿namespace AStar.Infrastructure.Models;
 
 /// <summary>
+/// The <see href="FileSizeEqualityComparer"></see> class that defines how the file sizes are deemed to be equal.
 /// </summary>
 public class FileSizeEqualityComparer : IEqualityComparer<FileSize>
 {
