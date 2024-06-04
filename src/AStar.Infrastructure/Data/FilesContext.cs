@@ -6,16 +6,8 @@ namespace AStar.Infrastructure.Data;
 /// <summary>
 /// The FileContext class/
 /// </summary>
-public class FilesContext : DbContext
+public class FilesContext(DbContextOptions options) : DbContext(options)
 {
-    /// <summary>
-    /// The overriden OnConfiguring method.
-    /// </summary>
-    /// <param name="optionsBuilder">
-    /// </param>
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlite("Filename=c:\\temp\\Files.db");
-
     /// <summary>
     /// The list of files in the dB.
     /// </summary>

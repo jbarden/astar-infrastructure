@@ -1,0 +1,1187 @@
+﻿[
+  [
+    {
+      FileName: .editorconfig,
+      IsImage: false,
+      DirectoryName: c:\temp,
+      FullNameWithPath: c:\temp\.editorconfig,
+      FileSize: 12756,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: .editorconfig,
+      IsImage: false,
+      DirectoryName: c:\temp\Famous,
+      FullNameWithPath: c:\temp\Famous\.editorconfig,
+      FileSize: 12756,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: .gitattributes,
+      IsImage: false,
+      DirectoryName: c:\temp,
+      FullNameWithPath: c:\temp\.gitattributes,
+      FileSize: 2581,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: .gitattributes,
+      IsImage: false,
+      DirectoryName: c:\temp\Famous,
+      FullNameWithPath: c:\temp\Famous\.gitattributes,
+      FileSize: 2581,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: .gitignore,
+      IsImage: false,
+      DirectoryName: c:\temp,
+      FullNameWithPath: c:\temp\.gitignore,
+      FileSize: 6352,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: .gitignore,
+      IsImage: false,
+      DirectoryName: c:\temp\Famous,
+      FullNameWithPath: c:\temp\Famous\.gitignore,
+      FileSize: 6352,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: .NETCoreApp,Version=v7.0.AssemblyAttributes.cs,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs,
+      FileSize: 198,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: .NETCoreApp,Version=v8.0.AssemblyAttributes.cs,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs,
+      FileSize: 198,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: 20080719 014.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Home\month04,
+      FullNameWithPath: c:\temp\Home\month04\20080719 014.jpg,
+      FileSize: 3373501,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: 4.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\1st Year Frame,
+      FullNameWithPath: c:\temp\1st Year Frame\4.jpg,
+      FileSize: 3373501,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: api-creation-log.txt,
+      IsImage: false,
+      DirectoryName: c:\temp,
+      FullNameWithPath: c:\temp\api-creation-log.txt,
+      FileSize: 75911,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: api-creation-log.txt,
+      IsImage: false,
+      DirectoryName: c:\temp\Famous,
+      FullNameWithPath: c:\temp\Famous\api-creation-log.txt,
+      FileSize: 75911,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: apphost.exe,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\apphost.exe,
+      FileSize: 142848,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.exe,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\AStar.Web.UI.exe,
+      FileSize: 142848,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: appsettings.Development.json,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\appsettings.Development.json,
+      FileSize: 154,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: appsettings.Development.json,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\appsettings.Development.json,
+      FileSize: 154,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: appsettings.json,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\appsettings.json,
+      FileSize: 151,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: appsettings.json,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\appsettings.json,
+      FileSize: 151,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.We.C5A7A0FB.Up2Date,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.We.C5A7A0FB.Up2Date,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.csproj.BuildWithSkipAnalyzers,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.csproj.BuildWithSkipAnalyzers,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.MvcApplicationPartsAssemblyInfo.cache,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.MvcApplicationPartsAssemblyInfo.cache,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: read.lock,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\AStar.Web.UI\FileContentIndex,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\AStar.Web.UI\FileContentIndex\read.lock,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.AssemblyInfo.cs,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.AssemblyInfo.cs,
+      FileSize: 1009,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.AssemblyInfo.cs,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.AssemblyInfo.cs,
+      FileSize: 1009,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.AssemblyInfoInputs.cache,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.AssemblyInfoInputs.cache,
+      FileSize: 66,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.AssemblyInfoInputs.cache,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.AssemblyInfoInputs.cache,
+      FileSize: 66,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.csproj.CoreCompileInputs.cache,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.csproj.CoreCompileInputs.cache,
+      FileSize: 66,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.genruntimeconfig.cache,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.genruntimeconfig.cache,
+      FileSize: 66,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.RazorAssemblyInfo.cache,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.RazorAssemblyInfo.cache,
+      FileSize: 66,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.RazorAssemblyInfo.cache,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.RazorAssemblyInfo.cache,
+      FileSize: 66,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.dll,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\AStar.Web.UI.dll,
+      FileSize: 47616,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.dll,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.dll,
+      FileSize: 47616,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.dll,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\ref,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\ref\AStar.Web.UI.dll,
+      FileSize: 13824,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.dll,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\refint,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\refint\AStar.Web.UI.dll,
+      FileSize: 13824,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.GeneratedMSBuildEditorConfig.editorconfig,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.GeneratedMSBuildEditorConfig.editorconfig,
+      FileSize: 2625,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.GeneratedMSBuildEditorConfig.editorconfig,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.GeneratedMSBuildEditorConfig.editorconfig,
+      FileSize: 2625,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.GlobalUsings.g.cs,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.GlobalUsings.g.cs,
+      FileSize: 770,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.GlobalUsings.g.cs,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.GlobalUsings.g.cs,
+      FileSize: 770,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.pdb,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\AStar.Web.UI.pdb,
+      FileSize: 38948,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.pdb,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.pdb,
+      FileSize: 38948,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.RazorAssemblyInfo.cs,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.RazorAssemblyInfo.cs,
+      FileSize: 732,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: AStar.Web.UI.RazorAssemblyInfo.cs,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.RazorAssemblyInfo.cs,
+      FileSize: 732,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: AStar.Web.UI.staticwebassets.runtime.json,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\AStar.Web.UI.staticwebassets.runtime.json,
+      FileSize: 2155,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: staticwebassets.development.json,
+      IsImage: false,
+      DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+      FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\staticwebassets.development.json,
+      FileSize: 2155,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: files.list.txt,
+      IsImage: false,
+      DirectoryName: c:\temp,
+      FullNameWithPath: c:\temp\files.list.txt,
+      FileSize: 712847,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: files.list.txt,
+      IsImage: false,
+      DirectoryName: c:\temp\Famous,
+      FullNameWithPath: c:\temp\Famous\files.list.txt,
+      FileSize: 712847,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: replace.ps1,
+      IsImage: false,
+      DirectoryName: c:\temp,
+      FullNameWithPath: c:\temp\replace.ps1,
+      FileSize: 2388,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: replace.ps1,
+      IsImage: false,
+      DirectoryName: c:\temp\Famous,
+      FullNameWithPath: c:\temp\Famous\replace.ps1,
+      FileSize: 2388,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: test.txt,
+      IsImage: false,
+      DirectoryName: c:\temp,
+      FullNameWithPath: c:\temp\test.txt,
+      FileSize: 2185,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: test.txt,
+      IsImage: false,
+      DirectoryName: c:\temp\Famous,
+      FullNameWithPath: c:\temp\Famous\test.txt,
+      FileSize: 2185,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-1pmqr3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie\sideboob\ass,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie\sideboob\ass\wallhaven-1pmqr3.jpg,
+      FileSize: 2688298,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-1pmqr3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie\sideboob\ass,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie\sideboob\ass\wallhaven-1pmqr3.jpg,
+      FileSize: 2688298,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-1pmqr3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\lingerie\sideboob\ass,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\lingerie\sideboob\ass\wallhaven-1pmqr3.jpg,
+      FileSize: 2688298,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-1pmqx3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-1pmqx3.jpg,
+      FileSize: 3556493,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-1pmqx3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-1pmqx3.jpg,
+      FileSize: 3556493,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-1pmqx3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-1pmqx3.jpg,
+      FileSize: 3556493,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-2y5139.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\wallhaven-2y5139.jpg,
+      FileSize: 4922103,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-2y5139.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\wallhaven-2y5139.jpg,
+      FileSize: 4922103,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-2y5139.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\wallhaven-2y5139.jpg,
+      FileSize: 4922103,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-5g8yr3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\wallhaven-5g8yr3.jpg,
+      FileSize: 3172079,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-5g8yr3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\wallhaven-5g8yr3.jpg,
+      FileSize: 3172079,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-5g8yr3.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\wallhaven-5g8yr3.jpg,
+      FileSize: 3172079,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-7pqjwv.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-7pqjwv.jpg,
+      FileSize: 2673470,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-7pqjwv.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-7pqjwv.jpg,
+      FileSize: 2673470,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-7pqjwv.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-7pqjwv.jpg,
+      FileSize: 2673470,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-851gd2.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-851gd2.jpg,
+      FileSize: 2299644,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-851gd2.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-851gd2.jpg,
+      FileSize: 2299644,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-851gd2.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-851gd2.jpg,
+      FileSize: 2299644,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-9dyo8d.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-9dyo8d.jpg,
+      FileSize: 3381902,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-9dyo8d.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-9dyo8d.jpg,
+      FileSize: 3381902,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-9dyo8d.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-9dyo8d.jpg,
+      FileSize: 3381902,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-jxoekq.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-jxoekq.jpg,
+      FileSize: 2384565,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-jxoekq.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-jxoekq.jpg,
+      FileSize: 2384565,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-jxoekq.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-jxoekq.jpg,
+      FileSize: 2384565,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-kx68k7.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-kx68k7.jpg,
+      FileSize: 3562538,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-kx68k7.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-kx68k7.jpg,
+      FileSize: 3562538,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-kx68k7.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-kx68k7.jpg,
+      FileSize: 3562538,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-l87ykr.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-l87ykr.jpg,
+      FileSize: 2166448,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-l87ykr.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-l87ykr.jpg,
+      FileSize: 2166448,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-l87ykr.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-l87ykr.jpg,
+      FileSize: 2166448,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-p9xoje.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-p9xoje.jpg,
+      FileSize: 2411003,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-p9xoje.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-p9xoje.jpg,
+      FileSize: 2411003,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-p9xoje.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-p9xoje.jpg,
+      FileSize: 2411003,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-qz8rgd.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-qz8rgd.jpg,
+      FileSize: 3483430,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-qz8rgd.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-qz8rgd.jpg,
+      FileSize: 3483430,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-qz8rgd.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-qz8rgd.jpg,
+      FileSize: 3483430,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-qz8rld.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie\wallhaven-qz8rld.jpg,
+      FileSize: 2724125,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-qz8rld.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie\wallhaven-qz8rld.jpg,
+      FileSize: 2724125,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-qz8rld.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\lingerie,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\lingerie\wallhaven-qz8rld.jpg,
+      FileSize: 2724125,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-rrzqoq.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-rrzqoq.jpg,
+      FileSize: 3746029,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-rrzqoq.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-rrzqoq.jpg,
+      FileSize: 3746029,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-rrzqoq.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-rrzqoq.jpg,
+      FileSize: 3746029,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-wer5m6.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\wallhaven-wer5m6.jpg,
+      FileSize: 3712496,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-wer5m6.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\wallhaven-wer5m6.jpg,
+      FileSize: 3712496,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-wer5m6.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\wallhaven-wer5m6.jpg,
+      FileSize: 3712496,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-yxrqvk.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\wallhaven-yxrqvk.jpg,
+      FileSize: 3958283,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-yxrqvk.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\wallhaven-yxrqvk.jpg,
+      FileSize: 3958283,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-yxrqvk.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\wallhaven-yxrqvk.jpg,
+      FileSize: 3958283,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ],
+  [
+    {
+      FileName: wallhaven-zyrp5g.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie,
+      FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie\wallhaven-zyrp5g.jpg,
+      FileSize: 2671537,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-zyrp5g.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie\wallhaven-zyrp5g.jpg,
+      FileSize: 2671537,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    },
+    {
+      FileName: wallhaven-zyrp5g.jpg,
+      IsImage: true,
+      DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\lingerie,
+      FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\lingerie\wallhaven-zyrp5g.jpg,
+      FileSize: 2671537,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      NeedsToMove: false,
+      HardDeletePending: false
+    }
+  ]
+]

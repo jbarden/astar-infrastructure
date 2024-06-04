@@ -3,6 +3,7 @@ using System;
 using AStar.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AStar.Infrastructure.Migrations
 {
     [DbContext(typeof(FilesContext))]
-    partial class FilesContextModelSnapshot : ModelSnapshot
+    [Migration("20240429163112_RemoveIsImageAndAddIsImage")]
+    partial class RemoveIsImageAndAddIsImage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -28,9 +31,6 @@ namespace AStar.Infrastructure.Migrations
                     b.Property<string>("DirectoryName")
                         .HasColumnType("TEXT")
                         .UseCollation("NOCASE");
-
-                    b.Property<bool>("DeletePending")
-                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime?>("DetailsLastUpdated")
                         .HasColumnType("TEXT");
