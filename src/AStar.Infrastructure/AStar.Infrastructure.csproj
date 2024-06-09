@@ -21,7 +21,7 @@
 		<PackageProjectUrl>https://github.com/jbarden/astar-infrastructure</PackageProjectUrl>
 		<Description>This package contains the FilesContext as well as a set of extensions
 to support fluent filtering.</Description>
-		<Version>1.1.0</Version>
+		<Version>1.5.1</Version>
 		<Authors>Jason Barden</Authors>
 		<DocumentationFile>$(AssemblyName).xml</DocumentationFile>
 		<PackageIcon>AStar.png</PackageIcon>

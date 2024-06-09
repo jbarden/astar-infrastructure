@@ -19,6 +19,11 @@
             The list of files in the dB.
             </summary>
         </member>
+        <member name="P:AStar.Infrastructure.Data.FilesContext.FileAccessDetails">
+            <summary>
+            The list of file access details in the dB.
+            </summary>
+        </member>
         <member name="P:AStar.Infrastructure.Data.FilesContext.TagsToIgnore">
             <summary>
             The list of tags to ignore.
@@ -31,34 +36,21 @@
         </member>
         <member name="M:AStar.Infrastructure.Data.FilesContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <summary>
-            The overriden OnModelCreating method.
+            The overridden OnModelCreating method.
             </summary>
             <param name="modelBuilder">
+            </param>
+        </member>
+        <member name="M:AStar.Infrastructure.Data.FilesContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            The overridden OnConfiguring method.
+            </summary>
+            <param name="optionsBuilder">
             </param>
         </member>
         <member name="T:AStar.Infrastructure.Data.FilesContextExtensions">
             <summary>
             </summary>
-        </member>
-        <member name="M:AStar.Infrastructure.Data.FilesContextExtensions.FilterBySearchFolder(Microsoft.EntityFrameworkCore.DbSet{AStar.Infrastructure.Models.FileDetail},System.String,System.Boolean,System.Threading.CancellationToken)">
-            <summary>
-            The FilterBySearchFolder method will return the files matching the specified criteria.
-            </summary>
-            <param name="files">
-            The list of files to filter.
-            </param>
-            <param name="startingFolder">
-            The starting folder for the filter to be applied from.
-            </param>
-            <param name="recursive">
-            A boolean to control whether the filter is applied recursively or not.
-            </param>
-            <param name="cancellationToken">
-            An instance of <see href="CancellationToken"></see> to cancel the filter when requested.
-            </param>
-            <returns>
-            The original list of files for further filtering.
-            </returns>
         </member>
         <member name="M:AStar.Infrastructure.Data.FilesContextExtensions.GetMatchingFiles(Microsoft.EntityFrameworkCore.DbSet{AStar.Infrastructure.Models.FileDetail},System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)">
             <summary>
@@ -101,18 +93,6 @@
             <param name="files">
             </param>
             <param name="searchType">
-            </param>
-            <param name="cancellationToken">
-            </param>
-            <returns>
-            </returns>
-        </member>
-        <member name="M:AStar.Infrastructure.EnumerableExtensions.FilterRecentlyViewed(System.Collections.Generic.IEnumerable{AStar.Infrastructure.Models.FileDetail},System.Boolean,System.Threading.CancellationToken)">
-            <summary>
-            </summary>
-            <param name="files">
-            </param>
-            <param name="excludeViewed">
             </param>
             <param name="cancellationToken">
             </param>
@@ -187,6 +167,53 @@
         <member name="M:AStar.Infrastructure.Migrations.AddDeletePending.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:AStar.Infrastructure.Models.FileAccessDetail">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.Id">
+            <summary>
+            Gets or sets the Id of the <see href="FileAccessDetail"></see>. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.DetailsLastUpdated">
+            <summary>
+            Gets or sets the date the file details were last updated. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.LastViewed">
+            <summary>
+            Gets or sets the date the file was last viewed. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.SoftDeleted">
+            <summary>
+            Gets or sets whether the file has been 'soft deleted'. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.SoftDeletePending">
+            <summary>
+            Gets or sets whether the file has been marked as 'delete pending'. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.MoveRequired">
+            <summary>
+            Gets or sets whether the file has been marked as 'needs to move'. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.HardDeletePending">
+            <summary>
+            Gets or sets whether the file has been marked as 'delete permanantely pending'. I know, shocking...
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileAccessDetail.ToString">
+            <summary>
+            Returns this object in JSON format.
+            </summary>
+            <returns>
+            This object serialized as a JSON object.
+            </returns>
+        </member>
         <member name="T:AStar.Infrastructure.Models.FileDetail">
             <summary>
             The FileDetail class containing the current properties
@@ -205,24 +232,18 @@
             The instance of FileInfo to use.
             </param>
         </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.Id">
+            <summary>
+            Gets or sets the Id of the <see href="FileDetail"></see>. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.FileAccessDetail">
+            <summary>
+            </summary>
+        </member>
         <member name="P:AStar.Infrastructure.Models.FileDetail.FileName">
             <summary>
             Gets or sets the file name. I know, shocking...
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.IsImage">
-            <summary>
-            Returns true when the file is of a supported image type.
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.DetailsLastUpdated">
-            <summary>
-            Gets or sets the date the file details were last updated. I know, shocking...
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.LastViewed">
-            <summary>
-            Gets or sets the date the file was last viewed. I know, shocking...
             </summary>
         </member>
         <member name="P:AStar.Infrastructure.Models.FileDetail.DirectoryName">
@@ -250,24 +271,9 @@
             Gets or sets the file size. I know, shocking...
             </summary>
         </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.SoftDeleted">
+        <member name="P:AStar.Infrastructure.Models.FileDetail.IsImage">
             <summary>
-            Gets or sets whether the file has been 'soft deleted'. I know, shocking...
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.SoftDeletePending">
-            <summary>
-            Gets or sets whether the file has been marked as 'delete pending'. I know, shocking...
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.NeedsToMove">
-            <summary>
-            Gets or sets whether the file has been marked as 'needs to move'. I know, shocking...
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.HardDeletePending">
-            <summary>
-            Gets or sets whether the file has been marked as 'delete permanantely pending'. I know, shocking...
+            Returns true when the file is of a supported image type.
             </summary>
         </member>
         <member name="M:AStar.Infrastructure.Models.FileDetail.ToString">

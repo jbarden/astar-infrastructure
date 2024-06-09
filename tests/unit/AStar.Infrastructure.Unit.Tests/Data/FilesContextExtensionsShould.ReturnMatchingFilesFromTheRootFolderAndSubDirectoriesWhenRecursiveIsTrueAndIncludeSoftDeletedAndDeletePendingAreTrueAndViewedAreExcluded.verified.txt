@@ -30,6 +30,21 @@
     IsImage: false
   },
   {
+    Id: 346,
+    FileAccessDetail: {
+      Id: 346,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: .dtbcache.v2,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\AStar.Web.UI\DesignTimeBuild,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\AStar.Web.UI\DesignTimeBuild\.dtbcache.v2,
+    FileSize: 142986,
+    IsImage: false
+  },
+  {
     Id: 34,
     FileAccessDetail: {
       Id: 34,
@@ -150,6 +165,21 @@
     IsImage: false
   },
   {
+    Id: 369,
+    FileAccessDetail: {
+      Id: 369,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: .NETCoreApp,Version=v8.0.AssemblyAttributes.cs,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs,
+    FileSize: 198,
+    IsImage: false
+  },
+  {
     Id: 14,
     FileAccessDetail: {
       Id: 14,
@@ -165,6 +195,36 @@
     IsImage: true
   },
   {
+    Id: 16,
+    FileAccessDetail: {
+      Id: 16,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 11.JPG,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\11.JPG,
+    FileSize: 3469867,
+    IsImage: true
+  },
+  {
+    Id: 17,
+    FileAccessDetail: {
+      Id: 17,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 12.JPG,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\12.JPG,
+    FileSize: 4529837,
+    IsImage: true
+  },
+  {
     Id: 240,
     FileAccessDetail: {
       Id: 240,
@@ -177,6 +237,21 @@
     DirectoryName: c:\temp\Home\month06,
     FullNameWithPath: c:\temp\Home\month06\2008-08-24_003.jpg,
     FileSize: 3829343,
+    IsImage: true
+  },
+  {
+    Id: 241,
+    FileAccessDetail: {
+      Id: 241,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 2008-08-24_007.jpg,
+    DirectoryName: c:\temp\Home\month06,
+    FullNameWithPath: c:\temp\Home\month06\2008-08-24_007.jpg,
+    FileSize: 4249626,
     IsImage: true
   },
   {
@@ -207,6 +282,21 @@
     DirectoryName: c:\temp\Home\month06,
     FullNameWithPath: c:\temp\Home\month06\2008-08-24_019.jpg,
     FileSize: 4384414,
+    IsImage: true
+  },
+  {
+    Id: 244,
+    FileAccessDetail: {
+      Id: 244,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 2008-08-24_021.jpg,
+    DirectoryName: c:\temp\Home\month06,
+    FullNameWithPath: c:\temp\Home\month06\2008-08-24_021.jpg,
+    FileSize: 4277798,
     IsImage: true
   },
   {
@@ -255,6 +345,21 @@
     IsImage: true
   },
   {
+    Id: 249,
+    FileAccessDetail: {
+      Id: 249,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 2008-08-24_058.jpg,
+    DirectoryName: c:\temp\Home\month06,
+    FullNameWithPath: c:\temp\Home\month06\2008-08-24_058.jpg,
+    FileSize: 4178078,
+    IsImage: true
+  },
+  {
     Id: 130,
     FileAccessDetail: {
       Id: 130,
@@ -267,6 +372,21 @@
     DirectoryName: c:\temp\Home\firstday,
     FullNameWithPath: c:\temp\Home\firstday\20080324 002.jpg,
     FileSize: 1964133,
+    IsImage: true
+  },
+  {
+    Id: 131,
+    FileAccessDetail: {
+      Id: 131,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080324 005.jpg,
+    DirectoryName: c:\temp\Home\firstday,
+    FullNameWithPath: c:\temp\Home\firstday\20080324 005.jpg,
+    FileSize: 2204323,
     IsImage: true
   },
   {
@@ -312,6 +432,36 @@
     DirectoryName: c:\temp\Home\firstday,
     FullNameWithPath: c:\temp\Home\firstday\20080324 064.jpg,
     FileSize: 2224478,
+    IsImage: true
+  },
+  {
+    Id: 136,
+    FileAccessDetail: {
+      Id: 136,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080324 075.jpg,
+    DirectoryName: c:\temp\Home\firstday,
+    FullNameWithPath: c:\temp\Home\firstday\20080324 075.jpg,
+    FileSize: 222846,
+    IsImage: true
+  },
+  {
+    Id: 137,
+    FileAccessDetail: {
+      Id: 137,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080324 091.jpg,
+    DirectoryName: c:\temp\Home\firstday,
+    FullNameWithPath: c:\temp\Home\firstday\20080324 091.jpg,
+    FileSize: 2090804,
     IsImage: true
   },
   {
@@ -405,6 +555,36 @@
     IsImage: true
   },
   {
+    Id: 145,
+    FileAccessDetail: {
+      Id: 145,
+      SoftDeleted: true,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080401 001.jpg,
+    DirectoryName: c:\temp\Home\month01,
+    FullNameWithPath: c:\temp\Home\month01\20080401 001.jpg,
+    FileSize: 2208291,
+    IsImage: true
+  },
+  {
+    Id: 146,
+    FileAccessDetail: {
+      Id: 146,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080401 004.jpg,
+    DirectoryName: c:\temp\Home\month01,
+    FullNameWithPath: c:\temp\Home\month01\20080401 004.jpg,
+    FileSize: 1799240,
+    IsImage: true
+  },
+  {
     Id: 147,
     FileAccessDetail: {
       Id: 147,
@@ -450,6 +630,21 @@
     IsImage: true
   },
   {
+    Id: 151,
+    FileAccessDetail: {
+      Id: 151,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080401 051.jpg,
+    DirectoryName: c:\temp\Home\month01,
+    FullNameWithPath: c:\temp\Home\month01\20080401 051.jpg,
+    FileSize: 2329107,
+    IsImage: true
+  },
+  {
     Id: 152,
     FileAccessDetail: {
       Id: 152,
@@ -462,6 +657,51 @@
     DirectoryName: c:\temp\Home\month01,
     FullNameWithPath: c:\temp\Home\month01\20080401 060.jpg,
     FileSize: 2045445,
+    IsImage: true
+  },
+  {
+    Id: 153,
+    FileAccessDetail: {
+      Id: 153,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080401 065.jpg,
+    DirectoryName: c:\temp\Home\month01,
+    FullNameWithPath: c:\temp\Home\month01\20080401 065.jpg,
+    FileSize: 2080411,
+    IsImage: true
+  },
+  {
+    Id: 154,
+    FileAccessDetail: {
+      Id: 154,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080405 021.jpg,
+    DirectoryName: c:\temp\Home\month01,
+    FullNameWithPath: c:\temp\Home\month01\20080405 021.jpg,
+    FileSize: 2232103,
+    IsImage: true
+  },
+  {
+    Id: 156,
+    FileAccessDetail: {
+      Id: 156,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080405 031.jpg,
+    DirectoryName: c:\temp\Home\month01,
+    FullNameWithPath: c:\temp\Home\month01\20080405 031.jpg,
+    FileSize: 212048,
     IsImage: true
   },
   {
@@ -525,6 +765,36 @@
     IsImage: true
   },
   {
+    Id: 161,
+    FileAccessDetail: {
+      Id: 161,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080413 002.jpg,
+    DirectoryName: c:\temp\Home\month01,
+    FullNameWithPath: c:\temp\Home\month01\20080413 002.jpg,
+    FileSize: 4610772,
+    IsImage: true
+  },
+  {
+    Id: 163,
+    FileAccessDetail: {
+      Id: 163,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080413 007.jpg,
+    DirectoryName: c:\temp\Home\month01,
+    FullNameWithPath: c:\temp\Home\month01\20080413 007.jpg,
+    FileSize: 3847305,
+    IsImage: true
+  },
+  {
     Id: 164,
     FileAccessDetail: {
       Id: 164,
@@ -552,6 +822,21 @@
     DirectoryName: c:\temp\Home\month02,
     FullNameWithPath: c:\temp\Home\month02\20080423 005.jpg,
     FileSize: 1161609,
+    IsImage: true
+  },
+  {
+    Id: 166,
+    FileAccessDetail: {
+      Id: 166,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080423 017.jpg,
+    DirectoryName: c:\temp\Home\month02,
+    FullNameWithPath: c:\temp\Home\month02\20080423 017.jpg,
+    FileSize: 3188933,
     IsImage: true
   },
   {
@@ -600,6 +885,36 @@
     IsImage: true
   },
   {
+    Id: 171,
+    FileAccessDetail: {
+      Id: 171,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080426 014.jpg,
+    DirectoryName: c:\temp\Home\month02,
+    FullNameWithPath: c:\temp\Home\month02\20080426 014.jpg,
+    FileSize: 3411107,
+    IsImage: true
+  },
+  {
+    Id: 172,
+    FileAccessDetail: {
+      Id: 172,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080426 036.jpg,
+    DirectoryName: c:\temp\Home\month02,
+    FullNameWithPath: c:\temp\Home\month02\20080426 036.jpg,
+    FileSize: 3343606,
+    IsImage: true
+  },
+  {
     Id: 173,
     FileAccessDetail: {
       Id: 173,
@@ -642,6 +957,21 @@
     DirectoryName: c:\temp\Home\month02,
     FullNameWithPath: c:\temp\Home\month02\20080503 002.jpg,
     FileSize: 2033745,
+    IsImage: true
+  },
+  {
+    Id: 177,
+    FileAccessDetail: {
+      Id: 177,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080503 008.jpg,
+    DirectoryName: c:\temp\Home\month02,
+    FullNameWithPath: c:\temp\Home\month02\20080503 008.jpg,
+    FileSize: 3970593,
     IsImage: true
   },
   {
@@ -690,6 +1020,21 @@
     IsImage: true
   },
   {
+    Id: 181,
+    FileAccessDetail: {
+      Id: 181,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080507 017.jpg,
+    DirectoryName: c:\temp\Home\month02,
+    FullNameWithPath: c:\temp\Home\month02\20080507 017.jpg,
+    FileSize: 2192273,
+    IsImage: true
+  },
+  {
     Id: 182,
     FileAccessDetail: {
       Id: 182,
@@ -717,6 +1062,36 @@
     DirectoryName: c:\temp\Home\month03,
     FullNameWithPath: c:\temp\Home\month03\20080523 026.jpg,
     FileSize: 194138,
+    IsImage: true
+  },
+  {
+    Id: 185,
+    FileAccessDetail: {
+      Id: 185,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080523 037.jpg,
+    DirectoryName: c:\temp\Home\month03,
+    FullNameWithPath: c:\temp\Home\month03\20080523 037.jpg,
+    FileSize: 228653,
+    IsImage: true
+  },
+  {
+    Id: 186,
+    FileAccessDetail: {
+      Id: 186,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080523 054.jpg,
+    DirectoryName: c:\temp\Home\month03,
+    FullNameWithPath: c:\temp\Home\month03\20080523 054.jpg,
+    FileSize: 236601,
     IsImage: true
   },
   {
@@ -765,6 +1140,21 @@
     IsImage: true
   },
   {
+    Id: 191,
+    FileAccessDetail: {
+      Id: 191,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080529 021.jpg,
+    DirectoryName: c:\temp\Home\month03,
+    FullNameWithPath: c:\temp\Home\month03\20080529 021.jpg,
+    FileSize: 3409576,
+    IsImage: true
+  },
+  {
     Id: 192,
     FileAccessDetail: {
       Id: 192,
@@ -777,6 +1167,21 @@
     DirectoryName: c:\temp\Home\month03,
     FullNameWithPath: c:\temp\Home\month03\20080605 019.jpg,
     FileSize: 3043667,
+    IsImage: true
+  },
+  {
+    Id: 193,
+    FileAccessDetail: {
+      Id: 193,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080605 027.jpg,
+    DirectoryName: c:\temp\Home\month03,
+    FullNameWithPath: c:\temp\Home\month03\20080605 027.jpg,
+    FileSize: 4128955,
     IsImage: true
   },
   {
@@ -810,6 +1215,21 @@
     IsImage: true
   },
   {
+    Id: 196,
+    FileAccessDetail: {
+      Id: 196,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080621 010.jpg,
+    DirectoryName: c:\temp\Home\month03,
+    FullNameWithPath: c:\temp\Home\month03\20080621 010.jpg,
+    FileSize: 4161209,
+    IsImage: true
+  },
+  {
     Id: 198,
     FileAccessDetail: {
       Id: 198,
@@ -825,6 +1245,21 @@
     IsImage: true
   },
   {
+    Id: 199,
+    FileAccessDetail: {
+      Id: 199,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080621 032.jpg,
+    DirectoryName: c:\temp\Home\month03,
+    FullNameWithPath: c:\temp\Home\month03\20080621 032.jpg,
+    FileSize: 3112896,
+    IsImage: true
+  },
+  {
     Id: 200,
     FileAccessDetail: {
       Id: 200,
@@ -837,6 +1272,21 @@
     DirectoryName: c:\temp\Home\month03,
     FullNameWithPath: c:\temp\Home\month03\20080622 003.jpg,
     FileSize: 3321909,
+    IsImage: true
+  },
+  {
+    Id: 201,
+    FileAccessDetail: {
+      Id: 201,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080622 017.jpg,
+    DirectoryName: c:\temp\Home\month03,
+    FullNameWithPath: c:\temp\Home\month03\20080622 017.jpg,
+    FileSize: 2786606,
     IsImage: true
   },
   {
@@ -885,6 +1335,21 @@
     IsImage: true
   },
   {
+    Id: 206,
+    FileAccessDetail: {
+      Id: 206,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080628 008.jpg,
+    DirectoryName: c:\temp\Home\month04,
+    FullNameWithPath: c:\temp\Home\month04\20080628 008.jpg,
+    FileSize: 2205879,
+    IsImage: true
+  },
+  {
     Id: 207,
     FileAccessDetail: {
       Id: 207,
@@ -897,6 +1362,36 @@
     DirectoryName: c:\temp\Home\month04,
     FullNameWithPath: c:\temp\Home\month04\20080628 019.jpg,
     FileSize: 1714778,
+    IsImage: true
+  },
+  {
+    Id: 208,
+    FileAccessDetail: {
+      Id: 208,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080628 025.jpg,
+    DirectoryName: c:\temp\Home\month04,
+    FullNameWithPath: c:\temp\Home\month04\20080628 025.jpg,
+    FileSize: 1658113,
+    IsImage: true
+  },
+  {
+    Id: 209,
+    FileAccessDetail: {
+      Id: 209,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080628 038.jpg,
+    DirectoryName: c:\temp\Home\month04,
+    FullNameWithPath: c:\temp\Home\month04\20080628 038.jpg,
+    FileSize: 2212704,
     IsImage: true
   },
   {
@@ -975,6 +1470,36 @@
     IsImage: true
   },
   {
+    Id: 216,
+    FileAccessDetail: {
+      Id: 216,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080717 029.jpg,
+    DirectoryName: c:\temp\Home\month04,
+    FullNameWithPath: c:\temp\Home\month04\20080717 029.jpg,
+    FileSize: 3146277,
+    IsImage: true
+  },
+  {
+    Id: 217,
+    FileAccessDetail: {
+      Id: 217,
+      SoftDeleted: true,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080717 033.jpg,
+    DirectoryName: c:\temp\Home\month04,
+    FullNameWithPath: c:\temp\Home\month04\20080717 033.jpg,
+    FileSize: 3466593,
+    IsImage: true
+  },
+  {
     Id: 219,
     FileAccessDetail: {
       Id: 219,
@@ -1002,6 +1527,21 @@
     DirectoryName: c:\temp\Home\month04,
     FullNameWithPath: c:\temp\Home\month04\20080719 026.jpg,
     FileSize: 3302524,
+    IsImage: true
+  },
+  {
+    Id: 221,
+    FileAccessDetail: {
+      Id: 221,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080719 036.jpg,
+    DirectoryName: c:\temp\Home\month04,
+    FullNameWithPath: c:\temp\Home\month04\20080719 036.jpg,
+    FileSize: 3905340,
     IsImage: true
   },
   {
@@ -1047,6 +1587,21 @@
     DirectoryName: c:\temp\Home\month05,
     FullNameWithPath: c:\temp\Home\month05\20080726_001.jpg,
     FileSize: 3213548,
+    IsImage: true
+  },
+  {
+    Id: 226,
+    FileAccessDetail: {
+      Id: 226,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080726_011.jpg,
+    DirectoryName: c:\temp\Home\month05,
+    FullNameWithPath: c:\temp\Home\month05\20080726_011.jpg,
+    FileSize: 3283800,
     IsImage: true
   },
   {
@@ -1110,6 +1665,36 @@
     IsImage: true
   },
   {
+    Id: 231,
+    FileAccessDetail: {
+      Id: 231,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080730_061.jpg,
+    DirectoryName: c:\temp\Home\month05,
+    FullNameWithPath: c:\temp\Home\month05\20080730_061.jpg,
+    FileSize: 3007557,
+    IsImage: true
+  },
+  {
+    Id: 233,
+    FileAccessDetail: {
+      Id: 233,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080801_009.jpg,
+    DirectoryName: c:\temp\Home\month05,
+    FullNameWithPath: c:\temp\Home\month05\20080801_009.jpg,
+    FileSize: 3463280,
+    IsImage: true
+  },
+  {
     Id: 234,
     FileAccessDetail: {
       Id: 234,
@@ -1122,6 +1707,36 @@
     DirectoryName: c:\temp\Home\month05,
     FullNameWithPath: c:\temp\Home\month05\20080815_015.jpg,
     FileSize: 3606757,
+    IsImage: true
+  },
+  {
+    Id: 235,
+    FileAccessDetail: {
+      Id: 235,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080815_024.jpg,
+    DirectoryName: c:\temp\Home\month05,
+    FullNameWithPath: c:\temp\Home\month05\20080815_024.jpg,
+    FileSize: 3515663,
+    IsImage: true
+  },
+  {
+    Id: 236,
+    FileAccessDetail: {
+      Id: 236,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080815_025.jpg,
+    DirectoryName: c:\temp\Home\month05,
+    FullNameWithPath: c:\temp\Home\month05\20080815_025.jpg,
+    FileSize: 3501226,
     IsImage: true
   },
   {
@@ -1170,6 +1785,21 @@
     IsImage: true
   },
   {
+    Id: 251,
+    FileAccessDetail: {
+      Id: 251,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080907_004.jpg,
+    DirectoryName: c:\temp\Home\month06,
+    FullNameWithPath: c:\temp\Home\month06\20080907_004.jpg,
+    FileSize: 3553941,
+    IsImage: true
+  },
+  {
     Id: 252,
     FileAccessDetail: {
       Id: 252,
@@ -1215,6 +1845,36 @@
     IsImage: true
   },
   {
+    Id: 256,
+    FileAccessDetail: {
+      Id: 256,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20080921_001.jpg,
+    DirectoryName: c:\temp\Home\month06,
+    FullNameWithPath: c:\temp\Home\month06\20080921_001.jpg,
+    FileSize: 4599688,
+    IsImage: true
+  },
+  {
+    Id: 257,
+    FileAccessDetail: {
+      Id: 257,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 20080921_005.jpg,
+    DirectoryName: c:\temp\Home\month06,
+    FullNameWithPath: c:\temp\Home\month06\20080921_005.jpg,
+    FileSize: 4505654,
+    IsImage: true
+  },
+  {
     Id: 258,
     FileAccessDetail: {
       Id: 258,
@@ -1245,6 +1905,21 @@
     IsImage: true
   },
   {
+    Id: 261,
+    FileAccessDetail: {
+      Id: 261,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 20081004_026.jpg,
+    DirectoryName: c:\temp\Home\month07,
+    FullNameWithPath: c:\temp\Home\month07\20081004_026.jpg,
+    FileSize: 3796472,
+    IsImage: true
+  },
+  {
     Id: 18,
     FileAccessDetail: {
       Id: 18,
@@ -1260,6 +1935,21 @@
     IsImage: true
   },
   {
+    Id: 19,
+    FileAccessDetail: {
+      Id: 19,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 24.jpg,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\24.jpg,
+    FileSize: 3703840,
+    IsImage: true
+  },
+  {
     Id: 20,
     FileAccessDetail: {
       Id: 20,
@@ -1271,6 +1961,21 @@
     FileName: 25.jpg,
     DirectoryName: c:\temp\1st Year Frame,
     FullNameWithPath: c:\temp\1st Year Frame\25.jpg,
+    FileSize: 3703840,
+    IsImage: true
+  },
+  {
+    Id: 21,
+    FileAccessDetail: {
+      Id: 21,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 26.jpg,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\26.jpg,
     FileSize: 3703840,
     IsImage: true
   },
@@ -1305,6 +2010,21 @@
     IsImage: true
   },
   {
+    Id: 25,
+    FileAccessDetail: {
+      Id: 25,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 4.jpg,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\4.jpg,
+    FileSize: 3373501,
+    IsImage: true
+  },
+  {
     Id: 347,
     FileAccessDetail: {
       Id: 347,
@@ -1320,6 +2040,21 @@
     IsImage: false
   },
   {
+    Id: 26,
+    FileAccessDetail: {
+      Id: 26,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: 5.jpg,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\5.jpg,
+    FileSize: 4272823,
+    IsImage: true
+  },
+  {
     Id: 27,
     FileAccessDetail: {
       Id: 27,
@@ -1332,6 +2067,21 @@
     DirectoryName: c:\temp\1st Year Frame,
     FullNameWithPath: c:\temp\1st Year Frame\6.jpg,
     FileSize: 162205,
+    IsImage: true
+  },
+  {
+    Id: 28,
+    FileAccessDetail: {
+      Id: 28,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: 7.JPG,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\7.JPG,
+    FileSize: 3331810,
     IsImage: true
   },
   {
@@ -1380,6 +2130,21 @@
     IsImage: true
   },
   {
+    Id: 31,
+    FileAccessDetail: {
+      Id: 31,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: A-0005.JPG,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\A-0005.JPG,
+    FileSize: 646684,
+    IsImage: true
+  },
+  {
     Id: 44,
     FileAccessDetail: {
       Id: 44,
@@ -1410,6 +2175,21 @@
     IsImage: true
   },
   {
+    Id: 46,
+    FileAccessDetail: {
+      Id: 46,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: A-0017.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\A-0017.JPG,
+    FileSize: 706511,
+    IsImage: true
+  },
+  {
     Id: 47,
     FileAccessDetail: {
       Id: 47,
@@ -1437,6 +2217,36 @@
     DirectoryName: c:\temp\M Day 2010,
     FullNameWithPath: c:\temp\M Day 2010\A-0029.JPG,
     FileSize: 709388,
+    IsImage: true
+  },
+  {
+    Id: 49,
+    FileAccessDetail: {
+      Id: 49,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: A-0033.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\A-0033.JPG,
+    FileSize: 753180,
+    IsImage: true
+  },
+  {
+    Id: 51,
+    FileAccessDetail: {
+      Id: 51,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: A-0045.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\A-0045.JPG,
+    FileSize: 677399,
     IsImage: true
   },
   {
@@ -1485,6 +2295,36 @@
     IsImage: true
   },
   {
+    Id: 55,
+    FileAccessDetail: {
+      Id: 55,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: A-0069.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\A-0069.JPG,
+    FileSize: 3867069,
+    IsImage: true
+  },
+  {
+    Id: 56,
+    FileAccessDetail: {
+      Id: 56,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: A-0073.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\A-0073.JPG,
+    FileSize: 3339272,
+    IsImage: true
+  },
+  {
     Id: 58,
     FileAccessDetail: {
       Id: 58,
@@ -1527,6 +2367,21 @@
     DirectoryName: c:\temp\M Day 2010,
     FullNameWithPath: c:\temp\M Day 2010\A-0093.JPG,
     FileSize: 4075616,
+    IsImage: true
+  },
+  {
+    Id: 61,
+    FileAccessDetail: {
+      Id: 61,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: A-0097.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\A-0097.JPG,
+    FileSize: 1087370,
     IsImage: true
   },
   {
@@ -1575,6 +2430,36 @@
     IsImage: true
   },
   {
+    Id: 65,
+    FileAccessDetail: {
+      Id: 65,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: A-0117.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\A-0117.JPG,
+    FileSize: 4424172,
+    IsImage: true
+  },
+  {
+    Id: 66,
+    FileAccessDetail: {
+      Id: 66,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: A-0121.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\A-0121.JPG,
+    FileSize: 4681663,
+    IsImage: true
+  },
+  {
     Id: 67,
     FileAccessDetail: {
       Id: 67,
@@ -1620,6 +2505,21 @@
     IsImage: true
   },
   {
+    Id: 33,
+    FileAccessDetail: {
+      Id: 33,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: A-0141.JPG,
+    DirectoryName: c:\temp\1st Year Frame,
+    FullNameWithPath: c:\temp\1st Year Frame\A-0141.JPG,
+    FileSize: 472630,
+    IsImage: true
+  },
+  {
     Id: 70,
     FileAccessDetail: {
       Id: 70,
@@ -1633,6 +2533,36 @@
     FullNameWithPath: c:\temp\M Day 2010\A-0141.JPG,
     FileSize: 3790871,
     IsImage: true
+  },
+  {
+    Id: 6,
+    FileAccessDetail: {
+      Id: 6,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: api-creation-log.txt,
+    DirectoryName: c:\temp,
+    FullNameWithPath: c:\temp\api-creation-log.txt,
+    FileSize: 75911,
+    IsImage: false
+  },
+  {
+    Id: 37,
+    FileAccessDetail: {
+      Id: 37,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: api-creation-log.txt,
+    DirectoryName: c:\temp\Famous,
+    FullNameWithPath: c:\temp\Famous\api-creation-log.txt,
+    FileSize: 75911,
+    IsImage: false
   },
   {
     Id: 272,
@@ -1650,6 +2580,80 @@
     IsImage: false
   },
   {
+    Id: 370,
+    FileAccessDetail: {
+      Id: 370,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: apphost.exe,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\apphost.exe,
+    FileSize: 142848,
+    IsImage: false
+  },
+  {
+    Id: 345,
+    FileAccessDetail: {
+      Id: 345,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: applicationhost.config,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\AStar.Web.UI\config,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\AStar.Web.UI\config\applicationhost.config,
+    FileSize: 83168,
+    IsImage: false
+  },
+  {
+    Id: 273,
+    FileAccessDetail: {
+      Id: 273,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: appsettings.Development.json,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\appsettings.Development.json,
+    FileSize: 154,
+    IsImage: false
+  },
+  {
+    Id: 352,
+    FileAccessDetail: {
+      Id: 352,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: appsettings.json,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\appsettings.json,
+    FileSize: 151,
+    IsImage: false
+  },
+  {
+    Id: 371,
+    FileAccessDetail: {
+      Id: 371,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: AStar.We.C5A7A0FB.Up2Date,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.We.C5A7A0FB.Up2Date,
+    IsImage: false
+  },
+  {
     Id: 79,
     FileAccessDetail: {
       Id: 79,
@@ -1662,6 +2666,21 @@
     DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web,
     FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.sln,
     FileSize: 1142,
+    IsImage: false
+  },
+  {
+    Id: 361,
+    FileAccessDetail: {
+      Id: 361,
+      SoftDeleted: true,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: AStar.Web.UI.AssemblyInfo.cs,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.AssemblyInfo.cs,
+    FileSize: 1009,
     IsImage: false
   },
   {
@@ -1770,6 +2789,35 @@
     IsImage: false
   },
   {
+    Id: 376,
+    FileAccessDetail: {
+      Id: 376,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: AStar.Web.UI.csproj.BuildWithSkipAnalyzers,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.csproj.BuildWithSkipAnalyzers,
+    IsImage: false
+  },
+  {
+    Id: 377,
+    FileAccessDetail: {
+      Id: 377,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: AStar.Web.UI.csproj.CoreCompileInputs.cache,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.csproj.CoreCompileInputs.cache,
+    FileSize: 66,
+    IsImage: false
+  },
+  {
     Id: 378,
     FileAccessDetail: {
       Id: 378,
@@ -1800,6 +2848,21 @@
     IsImage: false
   },
   {
+    Id: 311,
+    FileAccessDetail: {
+      Id: 311,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: AStar.Web.UI.csproj.nuget.g.props,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\AStar.Web.UI.csproj.nuget.g.props,
+    FileSize: 1438,
+    IsImage: false
+  },
+  {
     Id: 312,
     FileAccessDetail: {
       Id: 312,
@@ -1812,6 +2875,36 @@
     DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj,
     FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\AStar.Web.UI.csproj.nuget.g.targets,
     FileSize: 941,
+    IsImage: false
+  },
+  {
+    Id: 276,
+    FileAccessDetail: {
+      Id: 276,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: AStar.Web.UI.csproj.user,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\AStar.Web.UI.csproj.user,
+    FileSize: 238,
+    IsImage: false
+  },
+  {
+    Id: 353,
+    FileAccessDetail: {
+      Id: 353,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: AStar.Web.UI.deps.json,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\AStar.Web.UI.deps.json,
+    FileSize: 8281,
     IsImage: false
   },
   {
@@ -1875,6 +2968,36 @@
     IsImage: false
   },
   {
+    Id: 381,
+    FileAccessDetail: {
+      Id: 381,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: AStar.Web.UI.genruntimeconfig.cache,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.genruntimeconfig.cache,
+    FileSize: 66,
+    IsImage: false
+  },
+  {
+    Id: 366,
+    FileAccessDetail: {
+      Id: 366,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: AStar.Web.UI.GlobalUsings.g.cs,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.GlobalUsings.g.cs,
+    FileSize: 770,
+    IsImage: false
+  },
+  {
     Id: 382,
     FileAccessDetail: {
       Id: 382,
@@ -1904,6 +3027,21 @@
     IsImage: false
   },
   {
+    Id: 356,
+    FileAccessDetail: {
+      Id: 356,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: AStar.Web.UI.pdb,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\AStar.Web.UI.pdb,
+    FileSize: 38948,
+    IsImage: false
+  },
+  {
     Id: 384,
     FileAccessDetail: {
       Id: 384,
@@ -1930,6 +3068,21 @@
     FileName: AStar.Web.UI.RazorAssemblyInfo.cache,
     DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0,
     FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net7.0\AStar.Web.UI.RazorAssemblyInfo.cache,
+    FileSize: 66,
+    IsImage: false
+  },
+  {
+    Id: 385,
+    FileAccessDetail: {
+      Id: 385,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: AStar.Web.UI.RazorAssemblyInfo.cache,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\AStar.Web.UI.RazorAssemblyInfo.cache,
     FileSize: 66,
     IsImage: false
   },
@@ -1991,6 +3144,21 @@
     DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0,
     FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\bin\Debug\net8.0\BlazorBootstrap.dll,
     FileSize: 733184,
+    IsImage: false
+  },
+  {
+    Id: 336,
+    FileAccessDetail: {
+      Id: 336,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: blazorbootstrapserverapp.metadata.v6.1,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\ProjectEvaluation,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\ProjectEvaluation\blazorbootstrapserverapp.metadata.v6.1,
+    FileSize: 210693,
     IsImage: false
   },
   {
@@ -2069,6 +3237,21 @@
     IsImage: false
   },
   {
+    Id: 9,
+    FileAccessDetail: {
+      Id: 9,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: files.list.txt,
+    DirectoryName: c:\temp,
+    FullNameWithPath: c:\temp\files.list.txt,
+    FileSize: 712847,
+    IsImage: false
+  },
+  {
     Id: 38,
     FileAccessDetail: {
       Id: 38,
@@ -2084,6 +3267,36 @@
     IsImage: false
   },
   {
+    Id: 10,
+    FileAccessDetail: {
+      Id: 10,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: Files.sqbpro,
+    DirectoryName: c:\temp,
+    FullNameWithPath: c:\temp\Files.sqbpro,
+    FileSize: 1550,
+    IsImage: false
+  },
+  {
+    Id: 265,
+    FileAccessDetail: {
+      Id: 265,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: I'm Crawling!.wmv,
+    DirectoryName: c:\temp\Home\videos,
+    FullNameWithPath: c:\temp\Home\videos\I'm Crawling!.wmv,
+    FileSize: 41222676,
+    IsImage: false
+  },
+  {
     Id: 319,
     FileAccessDetail: {
       Id: 319,
@@ -2096,6 +3309,21 @@
     DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\Pages,
     FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\Pages\Index.razor,
     FileSize: 177,
+    IsImage: false
+  },
+  {
+    Id: 321,
+    FileAccessDetail: {
+      Id: 321,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: launchSettings.json,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\Properties,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\Properties\launchSettings.json,
+    FileSize: 964,
     IsImage: false
   },
   {
@@ -2141,6 +3369,21 @@
     DirectoryName: c:\temp\M Day 2010,
     FullNameWithPath: c:\temp\M Day 2010\MDayV2.jpg,
     FileSize: 8442525,
+    IsImage: true
+  },
+  {
+    Id: 73,
+    FileAccessDetail: {
+      Id: 73,
+      SoftDeleted: true,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: Mothers Day 2010 copy.jpg,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\Mothers Day 2010 copy.jpg,
+    FileSize: 10435815,
     IsImage: true
   },
   {
@@ -2204,6 +3447,36 @@
     IsImage: false
   },
   {
+    Id: 396,
+    FileAccessDetail: {
+      Id: 396,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: msbuild.buildMultiTargeting.AStar.Web.UI.props,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\staticwebassets,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AStar.Web.UI.props,
+    FileSize: 76,
+    IsImage: false
+  },
+  {
+    Id: 397,
+    FileAccessDetail: {
+      Id: 397,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: msbuild.buildTransitive.AStar.Web.UI.props,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\staticwebassets,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AStar.Web.UI.props,
+    FileSize: 90,
+    IsImage: false
+  },
+  {
     Id: 278,
     FileAccessDetail: {
       Id: 278,
@@ -2216,6 +3489,21 @@
     DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI,
     FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\Program.cs,
     FileSize: 1018,
+    IsImage: false
+  },
+  {
+    Id: 313,
+    FileAccessDetail: {
+      Id: 313,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: project.assets.json,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\project.assets.json,
+    FileSize: 27294,
     IsImage: false
   },
   {
@@ -2245,6 +3533,21 @@
     FileName: read.lock,
     DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\AStar.Web.UI\FileContentIndex,
     FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\.vs\AStar.Web.UI\FileContentIndex\read.lock,
+    IsImage: false
+  },
+  {
+    Id: 11,
+    FileAccessDetail: {
+      Id: 11,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: replace.ps1,
+    DirectoryName: c:\temp,
+    FullNameWithPath: c:\temp\replace.ps1,
+    FileSize: 2388,
     IsImage: false
   },
   {
@@ -2278,6 +3581,51 @@
     IsImage: true
   },
   {
+    Id: 129,
+    FileAccessDetail: {
+      Id: 129,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: Sam 001.jpg,
+    DirectoryName: c:\temp\Home\earlydays,
+    FullNameWithPath: c:\temp\Home\earlydays\Sam 001.jpg,
+    FileSize: 62151,
+    IsImage: true
+  },
+  {
+    Id: 266,
+    FileAccessDetail: {
+      Id: 266,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: Sam20080619_Small_1.wmv,
+    DirectoryName: c:\temp\Home\videos,
+    FullNameWithPath: c:\temp\Home\videos\Sam20080619_Small_1.wmv,
+    FileSize: 53792268,
+    IsImage: false
+  },
+  {
+    Id: 76,
+    FileAccessDetail: {
+      Id: 76,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: Sammy - 1st Snow 022.JPG,
+    DirectoryName: c:\temp\M Day 2010,
+    FullNameWithPath: c:\temp\M Day 2010\Sammy - 1st Snow 022.JPG,
+    FileSize: 2914530,
+    IsImage: true
+  },
+  {
     Id: 77,
     FileAccessDetail: {
       Id: 77,
@@ -2290,6 +3638,21 @@
     DirectoryName: c:\temp\M Day 2010,
     FullNameWithPath: c:\temp\M Day 2010\Sammy 014.JPG,
     FileSize: 4861968,
+    IsImage: true
+  },
+  {
+    Id: 262,
+    FileAccessDetail: {
+      Id: 262,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: Sammy 043.JPG,
+    DirectoryName: c:\temp\Home\month08,
+    FullNameWithPath: c:\temp\Home\month08\Sammy 043.JPG,
+    FileSize: 3757375,
     IsImage: true
   },
   {
@@ -2368,6 +3731,36 @@
     IsImage: false
   },
   {
+    Id: 271,
+    FileAccessDetail: {
+      Id: 271,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: Sammy_20080829_2.wmv,
+    DirectoryName: c:\temp\Home\videos,
+    FullNameWithPath: c:\temp\Home\videos\Sammy_20080829_2.wmv,
+    FileSize: 28616173,
+    IsImage: false
+  },
+  {
+    Id: 41,
+    FileAccessDetail: {
+      Id: 41,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: Sammy.arl,
+    DirectoryName: c:\temp\Home,
+    FullNameWithPath: c:\temp\Home\Sammy.arl,
+    FileSize: 16048,
+    IsImage: false
+  },
+  {
     Id: 338,
     FileAccessDetail: {
       Id: 338,
@@ -2395,6 +3788,21 @@
     DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
     FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\staticwebassets.build.json,
     FileSize: 10761,
+    IsImage: false
+  },
+  {
+    Id: 388,
+    FileAccessDetail: {
+      Id: 388,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: staticwebassets.development.json,
+    DirectoryName: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0,
+    FullNameWithPath: c:\temp\Blazor.Bootstrap\AStar.Web\AStar.Web.UI\obj\Debug\net8.0\staticwebassets.development.json,
+    FileSize: 2155,
     IsImage: false
   },
   {
@@ -2443,6 +3851,21 @@
     IsImage: false
   },
   {
+    Id: 97,
+    FileAccessDetail: {
+      Id: 97,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-1pmqo1.jpg,
+    DirectoryName: c:\temp\Famous\Jes Macallan,
+    FullNameWithPath: c:\temp\Famous\Jes Macallan\wallhaven-1pmqo1.jpg,
+    FileSize: 1096961,
+    IsImage: true
+  },
+  {
     Id: 398,
     FileAccessDetail: {
       Id: 398,
@@ -2454,6 +3877,21 @@
     FileName: wallhaven-1pmqr3.jpg,
     DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie\sideboob\ass,
     FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie\sideboob\ass\wallhaven-1pmqr3.jpg,
+    FileSize: 2688298,
+    IsImage: true
+  },
+  {
+    Id: 391,
+    FileAccessDetail: {
+      Id: 391,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-1pmqr3.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie\sideboob\ass,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie\sideboob\ass\wallhaven-1pmqr3.jpg,
     FileSize: 2688298,
     IsImage: true
   },
@@ -2485,6 +3923,36 @@
     DirectoryName: c:\temp\Famous\Sara Jean Underwood,
     FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-1pmqx3.jpg,
     FileSize: 3556493,
+    IsImage: true
+  },
+  {
+    Id: 298,
+    FileAccessDetail: {
+      Id: 298,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-1pmqx3.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-1pmqx3.jpg,
+    FileSize: 3556493,
+    IsImage: true
+  },
+  {
+    Id: 325,
+    FileAccessDetail: {
+      Id: 325,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-2y5139.jpg,
+    DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate,
+    FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\wallhaven-2y5139.jpg,
+    FileSize: 4922103,
     IsImage: true
   },
   {
@@ -2533,6 +4001,21 @@
     IsImage: true
   },
   {
+    Id: 126,
+    FileAccessDetail: {
+      Id: 126,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-2y5evm.jpg,
+    DirectoryName: c:\temp\Famous\Zendaya,
+    FullNameWithPath: c:\temp\Famous\Zendaya\wallhaven-2y5evm.jpg,
+    FileSize: 4940020,
+    IsImage: true
+  },
+  {
     Id: 80,
     FileAccessDetail: {
       Id: 80,
@@ -2545,6 +4028,21 @@
     DirectoryName: c:\temp\Famous\actress,
     FullNameWithPath: c:\temp\Famous\actress\wallhaven-2y5yj6.jpg,
     FileSize: 3446865,
+    IsImage: true
+  },
+  {
+    Id: 86,
+    FileAccessDetail: {
+      Id: 86,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-3k313y.jpg,
+    DirectoryName: c:\temp\Famous\coats,
+    FullNameWithPath: c:\temp\Famous\coats\wallhaven-3k313y.jpg,
+    FileSize: 387073,
     IsImage: true
   },
   {
@@ -2563,6 +4061,36 @@
     IsImage: true
   },
   {
+    Id: 121,
+    FileAccessDetail: {
+      Id: 121,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-3lelyv.jpg,
+    DirectoryName: c:\temp\Famous\Yishang Zhang,
+    FullNameWithPath: c:\temp\Famous\Yishang Zhang\wallhaven-3lelyv.jpg,
+    FileSize: 5778177,
+    IsImage: true
+  },
+  {
+    Id: 341,
+    FileAccessDetail: {
+      Id: 341,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-5d1me7.jpg,
+    DirectoryName: c:\temp\Famous\coats\reading\VivThomas\black boots,
+    FullNameWithPath: c:\temp\Famous\coats\reading\VivThomas\black boots\wallhaven-5d1me7.jpg,
+    FileSize: 236585,
+    IsImage: true
+  },
+  {
     Id: 122,
     FileAccessDetail: {
       Id: 122,
@@ -2575,6 +4103,21 @@
     DirectoryName: c:\temp\Famous\Yishang Zhang,
     FullNameWithPath: c:\temp\Famous\Yishang Zhang\wallhaven-5g8gj9.jpg,
     FileSize: 8661382,
+    IsImage: true
+  },
+  {
+    Id: 326,
+    FileAccessDetail: {
+      Id: 326,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-5g8yr3.jpg,
+    DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate,
+    FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\wallhaven-5g8yr3.jpg,
+    FileSize: 3172079,
     IsImage: true
   },
   {
@@ -2593,6 +4136,36 @@
     IsImage: true
   },
   {
+    Id: 96,
+    FileAccessDetail: {
+      Id: 96,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-6dzdrl.jpg,
+    DirectoryName: c:\temp\Famous\Han So-hee,
+    FullNameWithPath: c:\temp\Famous\Han So-hee\wallhaven-6dzdrl.jpg,
+    FileSize: 3199042,
+    IsImage: true
+  },
+  {
+    Id: 329,
+    FileAccessDetail: {
+      Id: 329,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-721r5v.jpg,
+    DirectoryName: c:\temp\Famous\coats\trimmed pubic hair\nipples,
+    FullNameWithPath: c:\temp\Famous\coats\trimmed pubic hair\nipples\wallhaven-721r5v.jpg,
+    FileSize: 374800,
+    IsImage: true
+  },
+  {
     Id: 282,
     FileAccessDetail: {
       Id: 282,
@@ -2604,6 +4177,21 @@
     FileName: wallhaven-7pqjwv.jpg,
     DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
     FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-7pqjwv.jpg,
+    FileSize: 2673470,
+    IsImage: true
+  },
+  {
+    Id: 111,
+    FileAccessDetail: {
+      Id: 111,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-7pqjwv.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-7pqjwv.jpg,
     FileSize: 2673470,
     IsImage: true
   },
@@ -2683,6 +4271,36 @@
     IsImage: true
   },
   {
+    Id: 81,
+    FileAccessDetail: {
+      Id: 81,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-851rdy.jpg,
+    DirectoryName: c:\temp\Famous\actress,
+    FullNameWithPath: c:\temp\Famous\actress\wallhaven-851rdy.jpg,
+    FileSize: 445322,
+    IsImage: true
+  },
+  {
+    Id: 291,
+    FileAccessDetail: {
+      Id: 291,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-96wx6d.jpg,
+    DirectoryName: c:\temp\Famous\coats\red coat,
+    FullNameWithPath: c:\temp\Famous\coats\red coat\wallhaven-96wx6d.jpg,
+    FileSize: 826908,
+    IsImage: true
+  },
+  {
     Id: 90,
     FileAccessDetail: {
       Id: 90,
@@ -2713,6 +4331,21 @@
     IsImage: true
   },
   {
+    Id: 301,
+    FileAccessDetail: {
+      Id: 301,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-9dyo8d.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-9dyo8d.jpg,
+    FileSize: 3381902,
+    IsImage: true
+  },
+  {
     Id: 107,
     FileAccessDetail: {
       Id: 107,
@@ -2725,6 +4358,36 @@
     DirectoryName: c:\temp\Famous\Rebecca Ferguson,
     FullNameWithPath: c:\temp\Famous\Rebecca Ferguson\wallhaven-d6qgjj.png,
     FileSize: 7538439,
+    IsImage: true
+  },
+  {
+    Id: 101,
+    FileAccessDetail: {
+      Id: 101,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-gpljx3.jpg,
+    DirectoryName: c:\temp\Famous\natalie,
+    FullNameWithPath: c:\temp\Famous\natalie\wallhaven-gpljx3.jpg,
+    FileSize: 345194,
+    IsImage: true
+  },
+  {
+    Id: 91,
+    FileAccessDetail: {
+      Id: 91,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-gplz3d.jpg,
+    DirectoryName: c:\temp\Famous\Emma Appleton,
+    FullNameWithPath: c:\temp\Famous\Emma Appleton\wallhaven-gplz3d.jpg,
+    FileSize: 2112573,
     IsImage: true
   },
   {
@@ -2785,6 +4448,21 @@
     DirectoryName: c:\temp\Famous\coats,
     FullNameWithPath: c:\temp\Famous\coats\wallhaven-jxoyoq.jpg,
     FileSize: 223338,
+    IsImage: true
+  },
+  {
+    Id: 286,
+    FileAccessDetail: {
+      Id: 286,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-kx68k7.jpg,
+    DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+    FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-kx68k7.jpg,
+    FileSize: 3562538,
     IsImage: true
   },
   {
@@ -2863,6 +4541,21 @@
     IsImage: true
   },
   {
+    Id: 116,
+    FileAccessDetail: {
+      Id: 116,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-l87ykr.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-l87ykr.jpg,
+    FileSize: 2166448,
+    IsImage: true
+  },
+  {
     Id: 304,
     FileAccessDetail: {
       Id: 304,
@@ -2875,6 +4568,21 @@
     DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
     FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-l87ykr.jpg,
     FileSize: 2166448,
+    IsImage: true
+  },
+  {
+    Id: 280,
+    FileAccessDetail: {
+      Id: 280,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-lmo27p.jpg,
+    DirectoryName: c:\temp\Famous\actress\pink stockings,
+    FullNameWithPath: c:\temp\Famous\actress\pink stockings\wallhaven-lmo27p.jpg,
+    FileSize: 555471,
     IsImage: true
   },
   {
@@ -2938,6 +4646,81 @@
     IsImage: true
   },
   {
+    Id: 305,
+    FileAccessDetail: {
+      Id: 305,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-p9xoje.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-p9xoje.jpg,
+    FileSize: 2411003,
+    IsImage: true
+  },
+  {
+    Id: 82,
+    FileAccessDetail: {
+      Id: 82,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-qz8lg7.jpg,
+    DirectoryName: c:\temp\Famous\actress,
+    FullNameWithPath: c:\temp\Famous\actress\wallhaven-qz8lg7.jpg,
+    FileSize: 5159526,
+    IsImage: true
+  },
+  {
+    Id: 289,
+    FileAccessDetail: {
+      Id: 289,
+      SoftDeleted: true,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-qz8rgd.jpg,
+    DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy,
+    FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\wallhaven-qz8rgd.jpg,
+    FileSize: 3483430,
+    IsImage: true
+  },
+  {
+    Id: 118,
+    FileAccessDetail: {
+      Id: 118,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-qz8rgd.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\wallhaven-qz8rgd.jpg,
+    FileSize: 3483430,
+    IsImage: true
+  },
+  {
+    Id: 306,
+    FileAccessDetail: {
+      Id: 306,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-qz8rgd.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-qz8rgd.jpg,
+    FileSize: 3483430,
+    IsImage: true
+  },
+  {
     Id: 339,
     FileAccessDetail: {
       Id: 339,
@@ -2949,6 +4732,21 @@
     FileName: wallhaven-qz8rld.jpg,
     DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie,
     FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie\wallhaven-qz8rld.jpg,
+    FileSize: 2724125,
+    IsImage: true
+  },
+  {
+    Id: 343,
+    FileAccessDetail: {
+      Id: 343,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-qz8rld.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\lingerie,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\lingerie\wallhaven-qz8rld.jpg,
     FileSize: 2724125,
     IsImage: true
   },
@@ -2998,6 +4796,21 @@
     IsImage: true
   },
   {
+    Id: 307,
+    FileAccessDetail: {
+      Id: 307,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-rrzqoq.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\wallhaven-rrzqoq.jpg,
+    FileSize: 3746029,
+    IsImage: true
+  },
+  {
     Id: 292,
     FileAccessDetail: {
       Id: 292,
@@ -3043,6 +4856,36 @@
     IsImage: true
   },
   {
+    Id: 296,
+    FileAccessDetail: {
+      Id: 296,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-wer5m6.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\wallhaven-wer5m6.jpg,
+    FileSize: 3712496,
+    IsImage: true
+  },
+  {
+    Id: 334,
+    FileAccessDetail: {
+      Id: 334,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-wer5m6.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Sara Jean Underwood - Copy\Playmate\wallhaven-wer5m6.jpg,
+    FileSize: 3712496,
+    IsImage: true
+  },
+  {
     Id: 124,
     FileAccessDetail: {
       Id: 124,
@@ -3055,6 +4898,36 @@
     DirectoryName: c:\temp\Famous\Yishang Zhang,
     FullNameWithPath: c:\temp\Famous\Yishang Zhang\wallhaven-werevr.jpg,
     FileSize: 2554537,
+    IsImage: true
+  },
+  {
+    Id: 100,
+    FileAccessDetail: {
+      Id: 100,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-werewx.jpg,
+    DirectoryName: c:\temp\Famous\Melissa Benoist,
+    FullNameWithPath: c:\temp\Famous\Melissa Benoist\wallhaven-werewx.jpg,
+    FileSize: 595148,
+    IsImage: true
+  },
+  {
+    Id: 109,
+    FileAccessDetail: {
+      Id: 109,
+      SoftDeleted: true,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-weryg7.png,
+    DirectoryName: c:\temp\Famous\Rebecca Ferguson,
+    FullNameWithPath: c:\temp\Famous\Rebecca Ferguson\wallhaven-weryg7.png,
+    FileSize: 4226647,
     IsImage: true
   },
   {
@@ -3073,6 +4946,36 @@
     IsImage: true
   },
   {
+    Id: 89,
+    FileAccessDetail: {
+      Id: 89,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-yxre17.jpg,
+    DirectoryName: c:\temp\Famous\coats,
+    FullNameWithPath: c:\temp\Famous\coats\wallhaven-yxre17.jpg,
+    FileSize: 179564,
+    IsImage: true
+  },
+  {
+    Id: 105,
+    FileAccessDetail: {
+      Id: 105,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-yxrj3d.jpg,
+    DirectoryName: c:\temp\Famous\natalie,
+    FullNameWithPath: c:\temp\Famous\natalie\wallhaven-yxrj3d.jpg,
+    FileSize: 246313,
+    IsImage: true
+  },
+  {
     Id: 328,
     FileAccessDetail: {
       Id: 328,
@@ -3084,6 +4987,21 @@
     FileName: wallhaven-yxrqvk.jpg,
     DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate,
     FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\wallhaven-yxrqvk.jpg,
+    FileSize: 3958283,
+    IsImage: true
+  },
+  {
+    Id: 297,
+    FileAccessDetail: {
+      Id: 297,
+      SoftDeleted: false,
+      SoftDeletePending: true,
+      MoveRequired: false,
+      HardDeletePending: false
+    },
+    FileName: wallhaven-yxrqvk.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\wallhaven-yxrqvk.jpg,
     FileSize: 3958283,
     IsImage: true
   },
@@ -3159,6 +5077,21 @@
     FileName: wallhaven-zyrp5g.jpg,
     DirectoryName: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie,
     FullNameWithPath: c:\temp\Famous\actress\Sara Jean Underwood - Copy - Copy\Playmate\lingerie\wallhaven-zyrp5g.jpg,
+    FileSize: 2671537,
+    IsImage: true
+  },
+  {
+    Id: 331,
+    FileAccessDetail: {
+      Id: 331,
+      SoftDeleted: false,
+      SoftDeletePending: false,
+      MoveRequired: false,
+      HardDeletePending: true
+    },
+    FileName: wallhaven-zyrp5g.jpg,
+    DirectoryName: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie,
+    FullNameWithPath: c:\temp\Famous\Sara Jean Underwood\Playmate\lingerie\wallhaven-zyrp5g.jpg,
     FileSize: 2671537,
     IsImage: true
   },

@@ -26,22 +26,6 @@ public static class EnumerableExtensions
     /// </summary>
     /// <param name="files">
     /// </param>
-    /// <param name="excludeViewed">
-    /// </param>
-    /// <param name="cancellationToken">
-    /// </param>
-    /// <returns>
-    /// </returns>
-
-    public static IEnumerable<FileDetail> FilterRecentlyViewed(this IEnumerable<FileDetail> files, bool excludeViewed, CancellationToken cancellationToken)
-                                    => cancellationToken.IsCancellationRequested
-                                        ? files
-                                        : FilterRecentlyViewed(files, excludeViewed);
-
-    /// <summary>
-    /// </summary>
-    /// <param name="files">
-    /// </param>
     /// <param name="sortOrder">
     /// </param>
     /// <returns>
@@ -99,10 +83,11 @@ public static class EnumerableExtensions
     private static IEnumerable<FileDetail> FilterImagesIfApplicable(IEnumerable<FileDetail> files, string searchType)
                                                 => searchType != "Images"
                                                         ? files
-                                                        : files.Where(file => file.IsImage);
-
-    private static IEnumerable<FileDetail> FilterRecentlyViewed(IEnumerable<FileDetail> files, bool excludeViewed)
-                                                => !excludeViewed
-                                                        ? files
-                                                        : files.Where(file => file.LastViewed is null || file.LastViewed <= DateTime.UtcNow.AddDays(-7));
+                                                        : files.Where(file => file.FileName.EndsWith("jpg")
+                        || file.FileName.EndsWith("jpeg")
+                        || file.FileName.EndsWith("bmp")
+                        || file.FileName.EndsWith("png")
+                        || file.FileName.EndsWith("jfif")
+                        || file.FileName.EndsWith("jif")
+                        || file.FileName.EndsWith("gif"));
 }

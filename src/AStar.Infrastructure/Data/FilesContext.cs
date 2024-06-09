@@ -14,6 +14,11 @@ public class FilesContext(DbContextOptions options) : DbContext(options)
     public DbSet<FileDetail> Files { get; set; } = null!;
 
     /// <summary>
+    /// The list of file access details in the dB.
+    /// </summary>
+    public DbSet<FileAccessDetail> FileAccessDetails { get; set; } = null!;
+
+    /// <summary>
     /// The list of tags to ignore.
     /// </summary>
     public DbSet<TagToIgnore> TagsToIgnore { get; set; } = null!;
@@ -24,7 +29,7 @@ public class FilesContext(DbContextOptions options) : DbContext(options)
     public DbSet<TagToIgnoreCompletely> TagsToIgnoreCompletely { get; set; } = null!;
 
     /// <summary>
-    /// The overriden OnModelCreating method.
+    /// The overridden OnModelCreating method.
     /// </summary>
     /// <param name="modelBuilder">
     /// </param>
@@ -34,4 +39,14 @@ public class FilesContext(DbContextOptions options) : DbContext(options)
         _ = modelBuilder.Entity<TagToIgnore>().HasKey(tag => tag.Value);
         _ = modelBuilder.Entity<TagToIgnoreCompletely>().HasKey(tag => tag.Value);
     }
+
+    /// <summary>
+    /// The overridden OnConfiguring method.
+    /// </summary>
+    /// <param name="optionsBuilder">
+    /// </param>
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    => optionsBuilder
+        .LogTo(Console.WriteLine)
+        .EnableSensitiveDataLogging();
 }

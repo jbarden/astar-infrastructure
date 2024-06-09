@@ -1,6 +1,5 @@
 ﻿using AStar.Infrastructure.Models;
 using Microsoft.EntityFrameworkCore;
-using static AStar.Utilities.StringExtensions;
 
 namespace AStar.Infrastructure.Data;
 
@@ -8,29 +7,6 @@ namespace AStar.Infrastructure.Data;
 /// </summary>
 public static class FilesContextExtensions
 {
-    /// <summary>
-    /// The FilterBySearchFolder method will return the files matching the specified criteria.
-    /// </summary>
-    /// <param name="files">
-    /// The list of files to filter.
-    /// </param>
-    /// <param name="startingFolder">
-    /// The starting folder for the filter to be applied from.
-    /// </param>
-    /// <param name="recursive">
-    /// A boolean to control whether the filter is applied recursively or not.
-    /// </param>
-    /// <param name="cancellationToken">
-    /// An instance of <see href="CancellationToken"></see> to cancel the filter when requested.
-    /// </param>
-    /// <returns>
-    /// The original list of files for further filtering.
-    /// </returns>
-    public static IEnumerable<FileDetail> FilterBySearchFolder(this DbSet<FileDetail> files, string startingFolder, bool recursive, CancellationToken cancellationToken)
-            => cancellationToken.IsCancellationRequested
-                                    ? files
-                                    : FilterBySearchFolder(files, startingFolder, recursive);
-
     /// <summary>
     /// </summary>
     /// <param name="files">
@@ -61,37 +37,53 @@ public static class FilesContextExtensions
     /// The original list of files for further filtering.
     /// </returns>
     public static IEnumerable<FileDetail> GetMatchingFiles(this DbSet<FileDetail> files, string startingFolder, bool recursive, string searchType, bool includeSoftDeleted, bool includeMarkedForDeletion, bool excludeViewed, CancellationToken cancellationToken)
-                                                => files
-                                                        .FilterBySearchFolder(startingFolder, recursive, cancellationToken)
-                                                        .FilterSoftDeleted(includeSoftDeleted, cancellationToken)
-                                                        .FilterMarkedForDeletion(includeMarkedForDeletion, cancellationToken)
-                                                        .FilterImagesIfApplicable(searchType, cancellationToken)
-                                                        .FilterRecentlyViewed(excludeViewed, cancellationToken).ToList();
+    {
+        var filesToReturn = files.Include(fileDetail => fileDetail.FileAccessDetail).AsNoTracking().AsQueryable();
 
-    private static IEnumerable<FileDetail> FilterBySearchFolder(DbSet<FileDetail> files, string startingFolder, bool recursive) => startingFolder.IsNullOrWhiteSpace()
-                                                ? []
-                                            : GetFiles(files, startingFolder, recursive);
+        if(cancellationToken.IsCancellationRequested)
+        { return []; }
 
-    private static IEnumerable<FileDetail> GetFiles(DbSet<FileDetail> files, string startingFolder, bool recursive)
-        => recursive
-                ? files.Where(file => file.DirectoryName.StartsWith(startingFolder))
-                : (IEnumerable<FileDetail>)files.Where(file => file.DirectoryName.Equals(startingFolder));
+        filesToReturn = recursive
+            ? filesToReturn.Where(file => file.DirectoryName.StartsWith(startingFolder))
+            : filesToReturn.Where(file => file.DirectoryName.Equals(startingFolder));
 
-    private static IEnumerable<FileDetail> FilterSoftDeleted(this IEnumerable<FileDetail> files, bool includeSoftDeleted, CancellationToken cancellationToken)
-                => cancellationToken.IsCancellationRequested
-                                    ? files
-                                    : FilterSoftDeleted(files, includeSoftDeleted);
+        if(cancellationToken.IsCancellationRequested)
+        { return []; }
 
-    private static IEnumerable<FileDetail> FilterSoftDeleted(IEnumerable<FileDetail> files, bool includeSoftDeleted) => !includeSoftDeleted
-                ? files.Where(file => !file.SoftDeleted) : files;
+        filesToReturn = includeSoftDeleted
+            ? filesToReturn
+            : filesToReturn.Where(file => !file.FileAccessDetail.SoftDeleted);
 
-    private static IEnumerable<FileDetail> FilterMarkedForDeletion(this IEnumerable<FileDetail> files, bool includeMarkedForDeletion, CancellationToken cancellationToken)
-                => cancellationToken.IsCancellationRequested
-                                    ? files
-                                    : FilterMarkedForDeletion(files, includeMarkedForDeletion);
+        if(cancellationToken.IsCancellationRequested)
+        { return []; }
 
-    private static IEnumerable<FileDetail> FilterMarkedForDeletion(IEnumerable<FileDetail> files, bool includeMarkedForDeletion)
-                        => !includeMarkedForDeletion
-                                    ? files.Where(file => !file.SoftDeletePending && !file.HardDeletePending)
-                                    : files;
+        if(!includeMarkedForDeletion)
+        {
+            filesToReturn = filesToReturn.Where(file => !file.FileAccessDetail.SoftDeletePending && !file.FileAccessDetail.HardDeletePending);
+        }
+
+        if(cancellationToken.IsCancellationRequested)
+        { return []; }
+
+        if(searchType == "Images")
+        {
+            filesToReturn = filesToReturn.Where(file => file.FileName.EndsWith("jpg")
+                        || file.FileName.EndsWith("jpeg")
+                        || file.FileName.EndsWith("bmp")
+                        || file.FileName.EndsWith("png")
+                        || file.FileName.EndsWith("jfif")
+                        || file.FileName.EndsWith("jif")
+                        || file.FileName.EndsWith("gif"));
+        }
+
+        if(cancellationToken.IsCancellationRequested)
+        { return []; }
+
+        if(excludeViewed)
+        {
+            filesToReturn = filesToReturn.Where(file => file.FileAccessDetail.LastViewed == null || file.FileAccessDetail.LastViewed <= DateTime.UtcNow.AddDays(-7));
+        }
+
+        return cancellationToken.IsCancellationRequested ? ([]) : ([.. filesToReturn]);
+    }
 }
