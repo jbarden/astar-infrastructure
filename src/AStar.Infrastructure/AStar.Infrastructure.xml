@@ -4,14 +4,55 @@
         <name>AStar.Infrastructure</name>
     </assembly>
     <members>
-        <member name="T:AStar.Infrastructure.Data.FilesContext">
+        <member name="T:AStar.Infrastructure.Data.AStarDbContextOptions">
             <summary>
-            The FileContext class/
+            The <see href="AStarDbContextOptions"></see> class is used to aid configuring the <see href="DbContext"></see>.
             </summary>
         </member>
-        <member name="M:AStar.Infrastructure.Data.FilesContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions)">
+        <member name="P:AStar.Infrastructure.Data.AStarDbContextOptions.EnableLogging">
             <summary>
-            The FileContext class/
+            Gets or sets whether logging should be enabled at all.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.AStarDbContextOptions.IncludeSensitiveData">
+            <summary>
+            Gets or sets whether sensitive data should be included. If logging is not enabled, this parameter is ignored.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.AStarDbContextOptions.UseSqlite">
+            <summary>
+            Gets or sets whether Sqlite should be used instead of SQLServer. The default is <c>false</c>.
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Data.ConnectionString">
+            <summary>
+            The <see href="ConnectionString"></see> class for use when configuring the context.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.ConnectionString.Value">
+            <summary>
+            Gets or sets the actual connection string.
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Data.FilesContext">
+            <summary>
+            The FileContext class.
+            </summary>
+            <remarks>
+            The list of files in the dB.
+            </remarks>
+        </member>
+        <member name="M:AStar.Infrastructure.Data.FilesContext.#ctor(AStar.Infrastructure.Data.ConnectionString,AStar.Infrastructure.Data.AStarDbContextOptions)">
+            <summary>
+            The FileContext class.
+            </summary>
+            <remarks>
+            The list of files in the dB.
+            </remarks>
+        </member>
+        <member name="M:AStar.Infrastructure.Data.FilesContext.#ctor">
+            <summary>
+            Alternative constructor
             </summary>
         </member>
         <member name="P:AStar.Infrastructure.Data.FilesContext.Files">
@@ -130,42 +171,6 @@
             </param>
             <returns>
             </returns>
-        </member>
-        <member name="T:AStar.Infrastructure.Migrations.AddTagTables">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="T:AStar.Infrastructure.Migrations.RemoveIsImageAndAddIsImage">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.RemoveIsImageAndAddIsImage.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.RemoveIsImageAndAddIsImage.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.RemoveIsImageAndAddIsImage.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="T:AStar.Infrastructure.Migrations.AddDeletePending">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddDeletePending.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddDeletePending.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddDeletePending.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
         </member>
         <member name="T:AStar.Infrastructure.Models.FileAccessDetail">
             <summary>

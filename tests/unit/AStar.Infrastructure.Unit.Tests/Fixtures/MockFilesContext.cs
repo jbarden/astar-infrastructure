@@ -9,7 +9,6 @@ namespace AStar.Infrastructure.Fixtures;
 public class MockFilesContext : IDisposable
 {
     private readonly SqliteConnection connection;
-    private readonly DbContextOptions<FilesContext> contextOptions;
     private bool disposedValue;
 
     public MockFilesContext()
@@ -18,13 +17,8 @@ public class MockFilesContext : IDisposable
         connection = new SqliteConnection("Filename=:memory:");
         connection.Open();
 
-        // These options will be used by the context instances in this test suite, including the connection opened above.
-        contextOptions = new DbContextOptionsBuilder<FilesContext>()
-            .UseSqlite(connection)
-            .Options;
-
         // Create the schema and seed some data
-        using var context = new FilesContext(contextOptions);
+        using var context = new FilesContext(new(){Value = "Filename=:memory:"}, new ());
 
         _ = context.Database.EnsureCreated();
 
@@ -32,7 +26,7 @@ public class MockFilesContext : IDisposable
         _ = context.SaveChanges();
     }
 
-    public FilesContext CreateContext() => new(contextOptions);
+    public FilesContext CreateContext() => new(new() { Value = "Filename=:memory:" }, new());
 
     public void Dispose()
     {

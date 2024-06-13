@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{D0422600-7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AStar.Infrastructure.Unit.Tests", "tests\unit\AStar.Infrastructure.Unit.Tests\AStar.Infrastructure.Unit.Tests.csproj", "{27B1AC25-C7BF-4DDD-9E2E-19EF76FD711F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AStar.Infrastructure.Migrations", "src\AStar.Infrastructure.Migrations\AStar.Infrastructure.Migrations.csproj", "{E2A92C46-8563-4F45-900D-E7E8825CD1B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{27B1AC25-C7BF-4DDD-9E2E-19EF76FD711F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B1AC25-C7BF-4DDD-9E2E-19EF76FD711F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B1AC25-C7BF-4DDD-9E2E-19EF76FD711F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A92C46-8563-4F45-900D-E7E8825CD1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A92C46-8563-4F45-900D-E7E8825CD1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A92C46-8563-4F45-900D-E7E8825CD1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A92C46-8563-4F45-900D-E7E8825CD1B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{E10B3483-1647-4D97-B7A9-6165DBC4A404} = {0F9EB241-1555-41EE-A678-8256EB91572E}
 		{D0422600-7244-4918-BA85-B9A9DA0EADA0} = {C4692C69-FC26-4F62-9B45-7668C5D47A3E}
 		{27B1AC25-C7BF-4DDD-9E2E-19EF76FD711F} = {D0422600-7244-4918-BA85-B9A9DA0EADA0}
+		{E2A92C46-8563-4F45-900D-E7E8825CD1B4} = {0F9EB241-1555-41EE-A678-8256EB91572E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BC1602D-6315-4B25-94D3-060B864B7B2A}

@@ -1,13 +1,28 @@
 ﻿using AStar.Infrastructure.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace AStar.Infrastructure.Data;
 
 /// <summary>
-/// The FileContext class/
+/// The FileContext class.
 /// </summary>
-public class FilesContext(DbContextOptions options) : DbContext(options)
+/// <remarks>
+/// The list of files in the dB.
+/// </remarks>
+public class FilesContext(ConnectionString connectionString, AStarDbContextOptions astarDbContextOptions) : DbContext
 {
+    private readonly ConnectionString connectionString = connectionString;
+    private readonly AStarDbContextOptions astarDbContextOptions = astarDbContextOptions;
+
+    /// <summary>
+    /// Alternative constructor
+    /// </summary>
+    public FilesContext() : this(new() { Value = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=FilesDb" }, new())
+    {
+    }
+
     /// <summary>
     /// The list of files in the dB.
     /// </summary>
@@ -46,7 +61,31 @@ public class FilesContext(DbContextOptions options) : DbContext(options)
     /// <param name="optionsBuilder">
     /// </param>
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    => optionsBuilder
-        .LogTo(Console.WriteLine)
-        .EnableSensitiveDataLogging();
+    {
+        _ = astarDbContextOptions.UseSqlite
+                                    ? optionsBuilder.UseSqlite(connectionString.Value)
+                                    : optionsBuilder.UseSqlServer(connectionString.Value,
+                                                x => x.MigrationsAssembly("AStar.Infrastructure.Migrations"));
+
+        if(astarDbContextOptions.EnableLogging)
+        {
+            _ = optionsBuilder.UseLoggerFactory(CreateLoggerFactory());
+            _ = optionsBuilder.LogTo(Console.WriteLine);
+            if(astarDbContextOptions.IncludeSensitiveData)
+            {
+                _ = optionsBuilder.EnableSensitiveDataLogging();
+            }
+        }
+        else
+        {
+            _ = optionsBuilder.UseLoggerFactory(CreateEmptyLoggerFactory());
+        }
+    }
+
+    private static ILoggerFactory CreateEmptyLoggerFactory()
+                                    => LoggerFactory.Create(builder => builder.AddFilter((_, _) => false));
+
+    private static ILoggerFactory CreateLoggerFactory()
+                                    => LoggerFactory.Create(static builder => builder
+                                                                    .AddFilter((category, level) => category == Command.Name && level == LogLevel.Information));
 }
