@@ -3,12 +3,12 @@
 namespace AStar.Infrastructure.Models;
 
 /// <summary>
-/// The <see href="TagToIgnoreCompletely"></see> class.
+/// The <see href="ModelToIgnore"></see> class.
 /// </summary>
-public class TagToIgnoreCompletely
+public class ModelToIgnore
 {
     /// <summary>
-    /// Gets or sets the value of the tag to ignore completely. I know, shocking...
+    /// Gets or sets the value of the Model to ignore completely. I know, shocking...
     /// </summary>
     public string Value { get; set; } = string.Empty;
 

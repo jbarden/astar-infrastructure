@@ -16,7 +16,7 @@ public class AStarDbContextOptions
     public bool IncludeSensitiveData { get; set; }
 
     /// <summary>
-    /// Gets or sets whether Sqlite should be used instead of SQLServer. The default is <c>false</c>.
+    /// Gets or sets whether InMemory dB should be used instead of SQLServer. The default is <c>false</c>.
     /// </summary>
-    public bool UseSqlite { get; set; }
+    public bool InMemory { get; set; }
 }

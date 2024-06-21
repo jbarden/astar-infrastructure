@@ -13,6 +13,11 @@ public class TagToIgnore
     public string Value { get; set; } = string.Empty;
 
     /// <summary>
+    /// Gets or sets the Ignore Image property. When set to <c>true</c>, the image is ignored irrespective of any other setting.
+    /// </summary>
+    public bool IgnoreImage { get; set; }
+
+    /// <summary>
     /// Returns this object in JSON format.
     /// </summary>
     /// <returns>

@@ -13,7 +13,7 @@ public class EnumerableExtensionsShould(FilesContextFixture filesContextFixture)
     {
         var response = sut.Files.FilterImagesIfApplicable("Images", CancellationToken.None);
 
-        response.Count().Should().Be(239);
+        response.Count().Should().Be(71);
 
         return Verify(response);
     }
@@ -23,7 +23,7 @@ public class EnumerableExtensionsShould(FilesContextFixture filesContextFixture)
     {
         var response = sut.Files.FilterImagesIfApplicable("All", CancellationToken.None);
 
-        response.Count().Should().Be(400);
+        response.Count().Should().Be(106);
 
         return Verify(response);
     }
@@ -33,7 +33,7 @@ public class EnumerableExtensionsShould(FilesContextFixture filesContextFixture)
     {
         var response = sut.Files.FilterImagesIfApplicable("Duplicates", CancellationToken.None);
 
-        response.Count().Should().Be(400);
+        response.Count().Should().Be(106);
 
         return Verify(response);
     }
@@ -75,7 +75,7 @@ public class EnumerableExtensionsShould(FilesContextFixture filesContextFixture)
     {
         var response = sut.Files.GetDuplicatesCount(CancellationToken.None);
 
-        response.Should().Be(40);
+        response.Should().Be(30);
     }
 
     [Fact]

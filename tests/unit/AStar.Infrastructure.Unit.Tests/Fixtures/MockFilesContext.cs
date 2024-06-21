@@ -1,32 +1,24 @@
 ﻿using System.Text.Json;
 using AStar.Infrastructure.Data;
 using AStar.Infrastructure.Models;
-using Microsoft.Data.Sqlite;
-using Microsoft.EntityFrameworkCore;
 
 namespace AStar.Infrastructure.Fixtures;
 
 public class MockFilesContext : IDisposable
 {
-    private readonly SqliteConnection connection;
     private bool disposedValue;
 
     public MockFilesContext()
     {
-        // Create and open a connection. This creates the SQLite in-memory database, which will persist until the connection is closed at the end of the test (see Dispose below).
-        connection = new SqliteConnection("Filename=:memory:");
-        connection.Open();
+        Context = new FilesContext(new(), new() { InMemory = true });
 
-        // Create the schema and seed some data
-        using var context = new FilesContext(new(){Value = "Filename=:memory:"}, new ());
+        _ = Context.Database.EnsureCreated();
 
-        _ = context.Database.EnsureCreated();
-
-        AddMockFiles(context);
-        _ = context.SaveChanges();
+        AddMockFiles(Context);
+        _ = Context.SaveChanges();
     }
 
-    public FilesContext CreateContext() => new(new() { Value = "Filename=:memory:" }, new());
+    public FilesContext Context { get; private set; }
 
     public void Dispose()
     {
@@ -41,7 +33,7 @@ public class MockFilesContext : IDisposable
         {
             if(disposing)
             {
-                connection.Dispose();
+                Context.Dispose();
             }
 
             disposedValue = true;
@@ -54,6 +46,13 @@ public class MockFilesContext : IDisposable
 
         var listFromJson = JsonSerializer.Deserialize<IEnumerable<FileDetail>>(filesAsJson)!;
 
-        mockFilesContext.AddRange(listFromJson);
+        foreach(var item in listFromJson)
+        {
+            if(mockFilesContext.Files.FirstOrDefault(f => f.FileName == item.FileName && f.DirectoryName == item.DirectoryName) == null)
+            {
+                mockFilesContext.Files.Add(item);
+                mockFilesContext.SaveChanges();
+            }
+        }
     }
 }

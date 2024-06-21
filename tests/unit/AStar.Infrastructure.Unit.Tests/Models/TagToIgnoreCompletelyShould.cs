@@ -3,5 +3,5 @@
 public class TagToIgnoreCompletelyShould
 {
     [Fact]
-    public void ReturnTheExpectedToStringOutput() => new TagToIgnoreCompletely().ToString().Should().Be(@"{""Value"":""""}");
+    public void ReturnTheExpectedToStringOutput() => new ModelToIgnore().ToString().Should().Be(@"{""Value"":""""}");
 }

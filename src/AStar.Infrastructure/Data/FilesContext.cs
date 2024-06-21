@@ -11,16 +11,28 @@ namespace AStar.Infrastructure.Data;
 /// <remarks>
 /// The list of files in the dB.
 /// </remarks>
-public class FilesContext(ConnectionString connectionString, AStarDbContextOptions astarDbContextOptions) : DbContext
+public class FilesContext : DbContext
 {
-    private readonly ConnectionString connectionString = connectionString;
-    private readonly AStarDbContextOptions astarDbContextOptions = astarDbContextOptions;
+    private readonly ConnectionString connectionString;
+    private readonly AStarDbContextOptions astarDbContextOptions;
 
     /// <summary>
-    /// Alternative constructor
+    /// Alternative constructor used when creating migrations, the connection string is hard-coded.
     /// </summary>
-    public FilesContext() : this(new() { Value = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=FilesDb" }, new())
+    public FilesContext() : this(new ConnectionString() { Value = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=FilesDb" }, new())
     {
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="connectionString">
+    /// </param>
+    /// <param name="astarDbContextOptions">
+    /// </param>
+    public FilesContext(ConnectionString connectionString, AStarDbContextOptions astarDbContextOptions)
+    {
+        this.connectionString = connectionString;
+        this.astarDbContextOptions = astarDbContextOptions;
     }
 
     /// <summary>
@@ -39,9 +51,14 @@ public class FilesContext(ConnectionString connectionString, AStarDbContextOptio
     public DbSet<TagToIgnore> TagsToIgnore { get; set; } = null!;
 
     /// <summary>
-    /// The list of tags to ignore completely.
+    /// The list of models to ignore completely.
     /// </summary>
-    public DbSet<TagToIgnoreCompletely> TagsToIgnoreCompletely { get; set; } = null!;
+    public DbSet<ModelToIgnore> ModelsToIgnore { get; set; } = null!;
+
+    /// <summary>
+    /// The Scrape Configuration settings.
+    /// </summary>
+    public DbSet<ScrapeConfiguration> ScrapeConfiguration { get; set; } = null!;
 
     /// <summary>
     /// The overridden OnModelCreating method.
@@ -50,9 +67,12 @@ public class FilesContext(ConnectionString connectionString, AStarDbContextOptio
     /// </param>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        _ = modelBuilder.Entity<FileDetail>().HasKey(vf => new { vf.FileName, vf.DirectoryName });
+        _ = modelBuilder.UseCollation("SQL_Latin1_General_CP1_CI_AS");
+        _ = modelBuilder.Entity<FileDetail>().HasKey(fileDetail => fileDetail.Id);
+        _ = modelBuilder.Entity<FileAccessDetail>().HasKey(fileAccessDetail => fileAccessDetail.Id);
+        _ = modelBuilder.Entity<ScrapeConfiguration>().HasKey(scrapeConfiguration => scrapeConfiguration.Id);
         _ = modelBuilder.Entity<TagToIgnore>().HasKey(tag => tag.Value);
-        _ = modelBuilder.Entity<TagToIgnoreCompletely>().HasKey(tag => tag.Value);
+        _ = modelBuilder.Entity<ModelToIgnore>().HasKey(tag => tag.Value);
     }
 
     /// <summary>
@@ -62,8 +82,8 @@ public class FilesContext(ConnectionString connectionString, AStarDbContextOptio
     /// </param>
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        _ = astarDbContextOptions.UseSqlite
-                                    ? optionsBuilder.UseSqlite(connectionString.Value)
+        _ = astarDbContextOptions.InMemory
+                                    ? optionsBuilder.UseInMemoryDatabase(databaseName: $"FilesTestDb{Guid.NewGuid()}")
                                     : optionsBuilder.UseSqlServer(connectionString.Value,
                                                 x => x.MigrationsAssembly("AStar.Infrastructure.Migrations"));
 

@@ -9,7 +9,7 @@ public class FileAccessDetail
     /// <summary>
     /// Gets or sets the Id of the <see href="FileAccessDetail"></see>. I know, shocking...
     /// </summary>
-    public int Id { get; set; }
+    public Guid Id { get; set; }
 
     /// <summary>
     /// Gets or sets the date the file details were last updated. I know, shocking...
@@ -37,7 +37,7 @@ public class FileAccessDetail
     public bool MoveRequired { get; set; }
 
     /// <summary>
-    /// Gets or sets whether the file has been marked as 'delete permanantely pending'. I know, shocking...
+    /// Gets or sets whether the file has been marked as 'delete permanently pending'. I know, shocking...
     /// </summary>
     public bool HardDeletePending { get; set; }
 

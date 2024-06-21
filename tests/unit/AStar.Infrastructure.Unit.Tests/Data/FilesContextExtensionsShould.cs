@@ -18,7 +18,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "searchTypeNotRelevant", IncludeSoftDeleted, IncludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(400);
+        response.Count().Should().Be(106);
 
         return Verify(response);
     }
@@ -28,7 +28,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "searchTypeNotRelevant", IncludeSoftDeleted, IncludeMarkedForDeletion, ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(341);
+        response.Count().Should().Be(106);
 
         return Verify(response);
     }
@@ -38,7 +38,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "searchTypeNotRelevant", IncludeSoftDeleted, ExcludeMarkedForDeletion, ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(239);
+        response.Count().Should().Be(103);
 
         return Verify(response);
     }
@@ -48,7 +48,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "searchTypeNotRelevant", ExcludeSoftDeleted, IncludeMarkedForDeletion, ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(303);
+        response.Count().Should().Be(104);
 
         return Verify(response);
     }
@@ -58,7 +58,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "searchTypeNotRelevant", ExcludeSoftDeleted, ExcludeMarkedForDeletion, ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(212);
+        response.Count().Should().Be(101);
 
         return Verify(response);
     }
@@ -68,7 +68,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "Images", IncludeSoftDeleted, IncludeMarkedForDeletion, ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(249);
+        response.Count().Should().Be(71);
 
         return Verify(response);
     }
@@ -78,7 +78,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "Images", IncludeSoftDeleted, ExcludeMarkedForDeletion, ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(173);
+        response.Count().Should().Be(68);
 
         return Verify(response);
     }
@@ -88,7 +88,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "Images", ExcludeSoftDeleted, IncludeMarkedForDeletion, ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(219);
+        response.Count().Should().Be(69);
 
         return Verify(response);
     }
@@ -98,7 +98,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     {
         var response = sut.Files.GetMatchingFiles("c:\\temp", Recursive, "Images", ExcludeSoftDeleted, ExcludeMarkedForDeletion, ExcludeViewed, CancellationToken.None);
 
-        response.Count().Should().Be(152);
+        response.Count().Should().Be(66);
 
         return Verify(response);
     }
@@ -106,7 +106,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     [Fact]
     public void GetTheExpectedCountWhenFilterAppliedThatCapturesAllFiles()
     {
-        const int FilesNotSoftDeletedOrPendingDeletionCount = 248;
+        const int FilesNotSoftDeletedOrPendingDeletionCount = 101;
 
         var matchingFilesCount = sut.Files
                                         .GetMatchingFiles(@"c:\", Recursive, "All", ExcludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
@@ -118,7 +118,7 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     [Fact]
     public void GetTheExpectedCountWhenFilterAppliedThatCapturesAllImageFiles()
     {
-        const int FilesNotSoftDeletedOrPendingDeletionCount = 179;
+        const int FilesNotSoftDeletedOrPendingDeletionCount = 66;
 
         var matchingFilesCount = sut.Files
                                         .GetMatchingFiles(@"c:\", Recursive, "Images", ExcludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
@@ -140,10 +140,10 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     [Fact]
     public void GetTheExpectedCountWhenFilterAppliedThatTargetsSpecificFolderRecursively()
     {
-        const int FilesNotSoftDeletedOrPendingDeletionCount = 57;
+        const int FilesNotSoftDeletedOrPendingDeletionCount = 24;
 
         var matchingFilesCount = sut.Files
-                                        .GetMatchingFiles(@"c:\Temp\Famous", Recursive, "Images", ExcludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
+                                        .GetMatchingFiles(@"c:\temp\wwwroot - Copy\AI", Recursive, "Images", ExcludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
                                         .Count();
 
         _ = matchingFilesCount.Should().Be(FilesNotSoftDeletedOrPendingDeletionCount);
@@ -152,10 +152,10 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     [Fact]
     public void GetTheExpectedCountWhenFilterAppliedThatCapturesAllSupportedImageTypesFromStartingSubFolder()
     {
-        const int FilesNotSoftDeletedOrPendingDeletionCount = 2;
+        const int FilesNotSoftDeletedOrPendingDeletionCount = 17;
 
         var matchingFilesCount = sut.Files
-                                        .GetMatchingFiles(@"c:\temp\Famous\coats", NotRecursive, "Images", ExcludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
+                                        .GetMatchingFiles(@"c:\temp\wwwroot - Copy\AI", NotRecursive, "Images", ExcludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
                                         .Count();
 
         _ = matchingFilesCount.Should().Be(FilesNotSoftDeletedOrPendingDeletionCount);
@@ -164,10 +164,10 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     [Fact]
     public void GetTheExpectedCountWhenFilterAppliedThatTargetsSpecificFolderRecursivelyButIncludeSoftDeleted()
     {
-        const int FilesNotSoftDeletedOrPendingDeletionCount = 67;
+        const int FilesNotSoftDeletedOrPendingDeletionCount = 32;
 
         var matchingFilesCount = sut.Files
-                                        .GetMatchingFiles(@"c:\Temp\Famous", Recursive, "Images", IncludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
+                                        .GetMatchingFiles(@"c:\temp\wwwroot - Copy", Recursive, "Images", IncludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
                                         .Count();
 
         _ = matchingFilesCount.Should().Be(FilesNotSoftDeletedOrPendingDeletionCount);
@@ -176,10 +176,10 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     [Fact]
     public void GetTheExpectedCountWhenFilterAppliedThatTargetsSpecificFolderRecursivelyButIncludeMarkedForDeletion()
     {
-        const int FilesNotSoftDeletedOrPendingDeletionCount = 83;
+        const int FilesNotSoftDeletedOrPendingDeletionCount = 33;
 
         var matchingFilesCount = sut.Files
-                                        .GetMatchingFiles(@"c:\Temp\Famous", Recursive, "Images", ExcludeSoftDeleted, IncludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
+                                        .GetMatchingFiles(@"c:\temp\wwwroot - Copy", Recursive, "Images", ExcludeSoftDeleted, IncludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
                                         .Count();
 
         _ = matchingFilesCount.Should().Be(FilesNotSoftDeletedOrPendingDeletionCount);
@@ -188,32 +188,12 @@ public class FilesContextExtensionsShould(FilesContextFixture filesContextFixtur
     [Fact]
     public void GetTheExpectedCountWhenFilterAppliedThatTargetsSpecificFolderRecursivelyButIncludeSoftDeletedAndIncludeMarkedForDeletion()
     {
-        const int FilesNotSoftDeletedOrPendingDeletionCount = 95;
+        const int FilesNotSoftDeletedOrPendingDeletionCount = 35;
 
         var matchingFilesCount = sut.Files
-                                        .GetMatchingFiles(@"c:\Temp\Famous", Recursive, "Images", IncludeSoftDeleted, IncludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
+                                        .GetMatchingFiles(@"c:\temp\wwwroot - Copy", Recursive, "Images", IncludeSoftDeleted, IncludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
                                         .Count();
 
         _ = matchingFilesCount.Should().Be(FilesNotSoftDeletedOrPendingDeletionCount);
-    }
-
-    [Fact]
-    public void GetTheExpectedCountOfDuplicateFileGroupsWhenStartingAtTheRootFolder()
-    {
-        var matchingFilesCount = sut.Files
-                                        .GetMatchingFiles(@"c:\", Recursive, "Duplicates", ExcludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
-                                        .Count();
-
-        matchingFilesCount.Should().Be(248);
-    }
-
-    [Fact]
-    public void GetTheExpectedCountOfDuplicateFileGroupsWhenStartingAtSubFolder()
-    {
-        var matchingFilesCount = sut.Files
-                                        .GetMatchingFiles(@"c:\Temp\Famous", Recursive, "Duplicates", ExcludeSoftDeleted, ExcludeMarkedForDeletion, !ExcludeViewed, CancellationToken.None)
-                                        .Count();
-
-        matchingFilesCount.Should().Be(62);
     }
 }
