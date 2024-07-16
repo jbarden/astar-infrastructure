@@ -4,16 +4,55 @@
         <name>AStar.Infrastructure</name>
     </assembly>
     <members>
-        <member name="T:AStar.Infrastructure.Data.FilesContext">
+        <member name="T:AStar.Infrastructure.Data.AStarDbContextOptions">
             <summary>
-            The FileContext class/
+            The <see href="AStarDbContextOptions"></see> class is used to aid configuring the <see href="DbContext"></see>.
             </summary>
         </member>
-        <member name="M:AStar.Infrastructure.Data.FilesContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+        <member name="P:AStar.Infrastructure.Data.AStarDbContextOptions.EnableLogging">
             <summary>
-            The overriden OnConfiguring method.
+            Gets or sets whether logging should be enabled at all.
             </summary>
-            <param name="optionsBuilder">
+        </member>
+        <member name="P:AStar.Infrastructure.Data.AStarDbContextOptions.IncludeSensitiveData">
+            <summary>
+            Gets or sets whether sensitive data should be included. If logging is not enabled, this parameter is ignored.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.AStarDbContextOptions.InMemory">
+            <summary>
+            Gets or sets whether InMemory dB should be used instead of SQLServer. The default is <c>false</c>.
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Data.ConnectionString">
+            <summary>
+            The <see href="ConnectionString"></see> class for use when configuring the context.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.ConnectionString.Value">
+            <summary>
+            Gets or sets the actual connection string.
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Data.FilesContext">
+            <summary>
+            The FileContext class.
+            </summary>
+            <remarks>
+            The list of files in the dB.
+            </remarks>
+        </member>
+        <member name="M:AStar.Infrastructure.Data.FilesContext.#ctor">
+            <summary>
+            Alternative constructor used when creating migrations, the connection string is hard-coded.
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Data.FilesContext.#ctor(AStar.Infrastructure.Data.ConnectionString,AStar.Infrastructure.Data.AStarDbContextOptions)">
+            <summary>
+            </summary>
+            <param name="connectionString">
+            </param>
+            <param name="astarDbContextOptions">
             </param>
         </member>
         <member name="P:AStar.Infrastructure.Data.FilesContext.Files">
@@ -21,34 +60,169 @@
             The list of files in the dB.
             </summary>
         </member>
+        <member name="P:AStar.Infrastructure.Data.FilesContext.FileAccessDetails">
+            <summary>
+            The list of file access details in the dB.
+            </summary>
+        </member>
         <member name="P:AStar.Infrastructure.Data.FilesContext.TagsToIgnore">
             <summary>
             The list of tags to ignore.
             </summary>
         </member>
-        <member name="P:AStar.Infrastructure.Data.FilesContext.TagsToIgnoreCompletely">
+        <member name="P:AStar.Infrastructure.Data.FilesContext.ModelsToIgnore">
             <summary>
-            The list of tags to ignore completely.
+            The list of models to ignore completely.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Data.FilesContext.ScrapeConfiguration">
+            <summary>
+            The Scrape Configuration settings.
             </summary>
         </member>
         <member name="M:AStar.Infrastructure.Data.FilesContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <summary>
-            The overriden OnModelCreating method.
+            The overridden OnModelCreating method.
             </summary>
             <param name="modelBuilder">
             </param>
         </member>
-        <member name="T:AStar.Infrastructure.Migrations.AddTagTables">
-            <inheritdoc />
+        <member name="M:AStar.Infrastructure.Data.FilesContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            The overridden OnConfiguring method.
+            </summary>
+            <param name="optionsBuilder">
+            </param>
         </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
+        <member name="T:AStar.Infrastructure.Data.FilesContextExtensions">
+            <summary>
+            </summary>
         </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
+        <member name="M:AStar.Infrastructure.Data.FilesContextExtensions.GetMatchingFiles(Microsoft.EntityFrameworkCore.DbSet{AStar.Infrastructure.Models.FileDetail},System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <param name="files">
+            The list of files to filter.
+            </param>
+            <param name="startingFolder">
+            The starting folder for the filter to be applied from.
+            </param>
+            <param name="recursive">
+            A boolean to control whether the filter is applied recursively or not.
+            </param>
+            <param name="searchType">
+            A string representation of the required Search Type.
+            </param>
+            <param name="includeSoftDeleted">
+            A boolean to control whether the filter includes files marked as Soft Deleted or not.
+            </param>
+            <param name="includeMarkedForDeletion">
+            A boolean to control whether the filter includes files marked Marked for Deletion or not.
+            </param>
+            <param name="excludeViewed">
+            A boolean to control whether the filter includes files recently viewed or not.
+            </param>
+            <param name="cancellationToken">
+            An instance of <see href="CancellationToken"></see> to cancel the filter when requested.
+            </param>
+            <returns>
+            The original list of files for further filtering.
+            </returns>
         </member>
-        <member name="M:AStar.Infrastructure.Migrations.AddTagTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
+        <member name="T:AStar.Infrastructure.EnumerableExtensions">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.EnumerableExtensions.FilterImagesIfApplicable(System.Collections.Generic.IEnumerable{AStar.Infrastructure.Models.FileDetail},System.String,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <param name="files">
+            </param>
+            <param name="searchType">
+            </param>
+            <param name="cancellationToken">
+            </param>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:AStar.Infrastructure.EnumerableExtensions.OrderFiles(System.Collections.Generic.IEnumerable{AStar.Infrastructure.Models.FileDetail},AStar.Infrastructure.Models.SortOrder)">
+            <summary>
+            </summary>
+            <param name="files">
+            </param>
+            <param name="sortOrder">
+            </param>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:AStar.Infrastructure.EnumerableExtensions.GetDuplicatesCount(System.Collections.Generic.IEnumerable{AStar.Infrastructure.Models.FileDetail},System.Threading.CancellationToken)">
+            <summary>
+            Gets the count of duplicates, grouped by Size, Height and Width.
+            </summary>
+            <param name="files">
+            The files to return grouped together.
+            </param>
+            <param name="cancellationToken">
+            </param>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:AStar.Infrastructure.EnumerableExtensions.GetDuplicates(System.Collections.Generic.IEnumerable{AStar.Infrastructure.Models.FileDetail})">
+            <summary>
+            Gets the count of duplicates, grouped by Size, Height and Width.
+            </summary>
+            <param name="files">
+            The files to return grouped together.
+            </param>
+            <returns>
+            </returns>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.FileAccessDetail">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.Id">
+            <summary>
+            Gets or sets the Id of the <see href="FileAccessDetail"></see>. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.DetailsLastUpdated">
+            <summary>
+            Gets or sets the date the file details were last updated. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.LastViewed">
+            <summary>
+            Gets or sets the date the file was last viewed. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.SoftDeleted">
+            <summary>
+            Gets or sets whether the file has been 'soft deleted'. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.SoftDeletePending">
+            <summary>
+            Gets or sets whether the file has been marked as 'delete pending'. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.MoveRequired">
+            <summary>
+            Gets or sets whether the file has been marked as 'needs to move'. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileAccessDetail.HardDeletePending">
+            <summary>
+            Gets or sets whether the file has been marked as 'delete permanently pending'. I know, shocking...
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileAccessDetail.ToString">
+            <summary>
+            Returns this object in JSON format.
+            </summary>
+            <returns>
+            This object serialized as a JSON object.
+            </returns>
         </member>
         <member name="T:AStar.Infrastructure.Models.FileDetail">
             <summary>
@@ -62,40 +236,34 @@
         </member>
         <member name="M:AStar.Infrastructure.Models.FileDetail.#ctor(System.IO.FileInfo)">
             <summary>
-            The copy constuctor that allows for passing an instance of FileInfo to this class, simplifying consumer code.
+            The copy constructor that allows for passing an instance of FileInfo to this class, simplifying consumer code.
             </summary>
             <param name="fileInfo">
             The instance of FileInfo to use.
             </param>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.Id">
+            <summary>
+            Gets or sets the Id of the <see href="FileDetail"></see>. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.FileAccessDetail">
+            <summary>
+            </summary>
         </member>
         <member name="P:AStar.Infrastructure.Models.FileDetail.FileName">
             <summary>
             Gets or sets the file name. I know, shocking...
             </summary>
         </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.IsImage">
-            <summary>
-            Do not use, will be removed soon.
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.IsImage2">
-            <summary>
-            Returns trur when the file is of a supported image type.
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.DetailsLastUpdated">
-            <summary>
-            Gets or sets the date the file details were last updated. I know, shocking...
-            </summary>
-        </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.LastViewed">
-            <summary>
-            Gets or sets the date the file wase last viewed. I know, shocking...
-            </summary>
-        </member>
         <member name="P:AStar.Infrastructure.Models.FileDetail.DirectoryName">
             <summary>
             Gets or sets the name of the directory containing the file detail. I know, shocking...
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileDetail.FullNameWithPath">
+            <summary>
+            Gets the full name of the file with the path combined.
             </summary>
         </member>
         <member name="P:AStar.Infrastructure.Models.FileDetail.Height">
@@ -113,14 +281,299 @@
             Gets or sets the file size. I know, shocking...
             </summary>
         </member>
-        <member name="P:AStar.Infrastructure.Models.FileDetail.SoftDeleted">
+        <member name="P:AStar.Infrastructure.Models.FileDetail.IsImage">
             <summary>
-            Gets or sets whether the file has been 'soft deleted'. I know, shocking...
+            Returns true when the file is of a supported image type.
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileDetail.ToString">
+            <summary>
+            Returns this object in JSON format.
+            </summary>
+            <returns>
+            This object serialized as a JSON object.
+            </returns>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.FileSize">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileSize.FileLength">
+            <summary>
+            Gets the file length property.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileSize.Height">
+            <summary>
+            Gets the file height property.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.FileSize.Width">
+            <summary>
+            Gets the file width property.
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileSize.Create(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            The Create method will return a populated instance of the <see cref="T:AStar.Infrastructure.Models.FileSize" /> class.
+            </summary>
+            <param name="fileLength">
+            The length of the file.
+            </param>
+            <param name="height">
+            The height of the file if an image.
+            </param>
+            <param name="width">
+            The width of the file if an image.
+            </param>
+            <returns>
+            A populated instance of <see cref="T:AStar.Infrastructure.Models.FileSize" />.
+            </returns>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileSize.ToString">
+            <summary>
+            Returns this object in JSON format.
+            </summary>
+            <returns>
+            This object serialized as a JSON object.
+            </returns>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.FileSizeEqualityComparer">
+            <summary>
+            The <see href="FileSizeEqualityComparer"></see> class that defines how the file sizes are deemed to be equal.
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileSizeEqualityComparer.Equals(AStar.Infrastructure.Models.FileSize,AStar.Infrastructure.Models.FileSize)">
+            <summary>
+            The Equals method has been overridden to perform the equality check currently required. The equality check is for Height, Width and Length - making this more of an ImageComparer...
+            </summary>
+            <param name="leftFileSize">
+            An instance of the <see cref="T:AStar.Infrastructure.Models.FileSize" /> class to compare.
+            </param>
+            <param name="rightFileSize">
+            The other instance of the <see cref="T:AStar.Infrastructure.Models.FileSize" /> class to compare.
+            </param>
+            <returns>
+            <c>true</c> if the files are deemed to be the same size, <c>false</c> otherwise.
+            </returns>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.FileSizeEqualityComparer.GetHashCode(AStar.Infrastructure.Models.FileSize)">
+            <summary>
+            The GetHashCode has been overridden to return the hash-codes as per the fields compared in the overridden Equals method.
+            </summary>
+            <param name="fileSize">
+            The <see cref="T:AStar.Infrastructure.Models.FileSize" /> to calculate the appropriate hash-code for.
+            </param>
+            <returns>
+            The hash-code, combined from the relevant properties own hash-codes.
+            </returns>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.ModelToIgnore">
+            <summary>
+            The <see href="ModelToIgnore"></see> class.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ModelToIgnore.Value">
+            <summary>
+            Gets or sets the value of the Model to ignore completely. I know, shocking...
+            </summary>
+        </member>
+        <member name="M:AStar.Infrastructure.Models.ModelToIgnore.ToString">
+            <summary>
+            Returns this object in JSON format.
+            </summary>
+            <returns>
+            This object serialized as a JSON object.
+            </returns>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.ScrapeConfiguration">
+            <summary>
+            The <see href="ScrapeConfiguration"></see> class containing the full Scrape Configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeConfiguration.Id">
+            <summary>
+            Gets or sets the Id of the configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeConfiguration.UserConfiguration">
+            <summary>
+            The <see href="UserConfiguration"></see> class containing the User Configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeConfiguration.SearchConfiguration">
+            <summary>
+            The <see href="SearchConfiguration"></see> class containing the Search Configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeConfiguration.ScrapeDirectories">
+            <summary>
+            The <see href="ScrapeDirectories"></see> class containing the Directory Configuration.
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.ScrapeDirectories">
+            <summary>
+            The <see href="ScrapeDirectories"></see> class containing the Scrape Directories Configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeDirectories.Id">
+            <summary>
+            Gets or sets the Id of the configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeDirectories.RootDirectory">
+            <summary>
+            Gets or sets the Root Directory for everything - search and save.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeDirectories.BaseSaveDirectory">
+            <summary>
+            Gets or sets the Base Save Directory for the saving post search - appended to the root directory.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeDirectories.BaseDirectory">
+            <summary>
+            Gets or sets the Base Directory for the search checks - appended to the root directory.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeDirectories.BaseDirectoryFamous">
+            <summary>
+            Gets or sets the Base Directory Famous for the search checks for famous people - appended to the root directory.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.ScrapeDirectories.SubDirectoryName">
+            <summary>
+            Gets or sets the default sub-directory name for the save - appended to the root directory.
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.SearchCategory">
+            <summary>
+            The <see href="SearchConfiguration"></see> class containing the full Scrape Configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchCategory.Id">
+            <summary>
+            Gets or sets the Id of the search category.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchCategory.Name">
+            <summary>
+            Gets or sets the Name of the category.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchCategory.LastKnownImageCount">
+            <summary>
+            Gets or sets the Last Known Image Count.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchCategory.LastPageVisited">
+            <summary>
+            Gets or sets the Last Page Visited number.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchCategory.TotalPages">
+            <summary>
+            Gets or sets the Total Pages for the results.
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.SearchConfiguration">
+            <summary>
+            The <see href="SearchConfiguration"></see> class containing the full Scrape Configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.Id">
+            <summary>
+            Gets or sets the Id of the configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.BaseUrl">
+            <summary>
+            Gets or sets the Base Url for the login and search.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.LoginUrl">
+            <summary>
+            Gets or sets the Login Url.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.SearchCategories">
+            <summary>
+            Gets or sets the Search Categories.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.SearchString">
+            <summary>
+            Gets or sets the default Search String.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.TopWallpapers">
+            <summary>
+            Gets or sets the TopWallpapers something.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.SearchStringPrefix">
+            <summary>
+            Gets or sets the Search String Prefix.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.SearchStringSuffix">
+            <summary>
+            Gets or sets the Search StringSuffix.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.Subscriptions">
+            <summary>
+            Gets or sets the Subscriptions something.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.ImagePauseInSeconds">
+            <summary>
+            Gets or sets the base Image Pause In Seconds.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.StartingPageNumber">
+            <summary>
+            Gets or sets the Starting Page Number.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.TotalPages">
+            <summary>
+            Gets or sets the Total Pages for the New Subscription search.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.UseHeadless">
+            <summary>
+            Gets or sets the Use Headless to determine whether to run in headless mode or not.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.SubscriptionsStartingPageNumber">
+            <summary>
+            Gets or sets the Subscriptions Starting Page Number.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.SubscriptionsTotalPages">
+            <summary>
+            Gets or sets the Subscriptions Total Pages.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.TopWallpapersTotalPages">
+            <summary>
+            Gets or sets the Top Wallpapers Total Pages.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.SearchConfiguration.TopWallpapersStartingPageNumber">
+            <summary>
+            Gets or sets the Top Wallpapers Starting Page Number.
+            </summary>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.SortOrder">
+            <summary>
+            The currently supported SortOrders.
             </summary>
         </member>
         <member name="T:AStar.Infrastructure.Models.TagToIgnore">
             <summary>
-            The TagToIgnore class.
+            The <see href="TagToIgnore"></see> class.
             </summary>
         </member>
         <member name="P:AStar.Infrastructure.Models.TagToIgnore.Value">
@@ -128,14 +581,42 @@
             Gets or sets the value of the tag to ignore. I know, shocking...
             </summary>
         </member>
-        <member name="T:AStar.Infrastructure.Models.TagToIgnoreCompletely">
+        <member name="P:AStar.Infrastructure.Models.TagToIgnore.IgnoreImage">
             <summary>
-            The TagToIgnoreCompletely class.
+            Gets or sets the Ignore Image property. When set to <c>true</c>, the image is ignored irrespective of any other setting.
             </summary>
         </member>
-        <member name="P:AStar.Infrastructure.Models.TagToIgnoreCompletely.Value">
+        <member name="M:AStar.Infrastructure.Models.TagToIgnore.ToString">
             <summary>
-            Gets or sets the value of the tag to ignore completely. I know, shocking...
+            Returns this object in JSON format.
+            </summary>
+            <returns>
+            This object serialized as a JSON object.
+            </returns>
+        </member>
+        <member name="T:AStar.Infrastructure.Models.UserConfiguration">
+            <summary>
+            The <see href="UserConfiguration"></see> class containing User Configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.UserConfiguration.Id">
+            <summary>
+            Gets or sets the Id of the configuration.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.UserConfiguration.LoginEmailAddress">
+            <summary>
+            Gets or sets the Login Email Address.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.UserConfiguration.Username">
+            <summary>
+            Gets or sets the Username.
+            </summary>
+        </member>
+        <member name="P:AStar.Infrastructure.Models.UserConfiguration.Password">
+            <summary>
+            Gets or sets the Password.
             </summary>
         </member>
     </members>

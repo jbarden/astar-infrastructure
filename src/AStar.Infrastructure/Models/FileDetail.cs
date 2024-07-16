@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json;
 
 namespace AStar.Infrastructure.Models;
 
@@ -15,7 +16,7 @@ public class FileDetail
     }
 
     /// <summary>
-    /// The copy constuctor that allows for passing an instance of FileInfo to this class, simplifying consumer code.
+    /// The copy constructor that allows for passing an instance of FileInfo to this class, simplifying consumer code.
     /// </summary>
     /// <param name="fileInfo">
     /// The instance of FileInfo to use.
@@ -28,40 +29,29 @@ public class FileDetail
     }
 
     /// <summary>
+    /// Gets or sets the Id of the <see href="FileDetail"></see>. I know, shocking...
+    /// </summary>
+    public Guid Id { get; set; }
+
+    /// <summary>
+    /// </summary>
+    public FileAccessDetail FileAccessDetail { get; set; } = new();
+
+    /// <summary>
     /// Gets or sets the file name. I know, shocking...
     /// </summary>
     public string FileName { get; set; } = string.Empty;
 
     /// <summary>
-    /// Do not use, will be removed soon.
-    /// </summary>
-    public bool IsImage { get; set; }
-
-    /// <summary>
-    /// Returns trur when the file is of a supported image type.
-    /// </summary>
-    [NotMapped]
-    public bool IsImage2 => FileName.EndsWith("jpg", StringComparison.OrdinalIgnoreCase)
-        || FileName.EndsWith("jpeg", StringComparison.OrdinalIgnoreCase)
-        || FileName.EndsWith("bmp", StringComparison.OrdinalIgnoreCase)
-        || FileName.EndsWith("png", StringComparison.OrdinalIgnoreCase)
-        || FileName.EndsWith("jfif", StringComparison.OrdinalIgnoreCase)
-        || FileName.EndsWith("gif", StringComparison.OrdinalIgnoreCase);
-
-    /// <summary>
-    /// Gets or sets the date the file details were last updated. I know, shocking...
-    /// </summary>
-    public DateTime? DetailsLastUpdated { get; set; }
-
-    /// <summary>
-    /// Gets or sets the date the file wase last viewed. I know, shocking...
-    /// </summary>
-    public DateTime? LastViewed { get; set; }
-
-    /// <summary>
     /// Gets or sets the name of the directory containing the file detail. I know, shocking...
     /// </summary>
     public string DirectoryName { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Gets the full name of the file with the path combined.
+    /// </summary>
+    [NotMapped]
+    public string FullNameWithPath => Path.Combine(DirectoryName, FileName);
 
     /// <summary>
     /// Gets or sets the height of the image. I know, shocking...
@@ -79,7 +69,22 @@ public class FileDetail
     public long FileSize { get; set; }
 
     /// <summary>
-    /// Gets or sets whether the file has been 'soft deleted'. I know, shocking...
+    /// Returns true when the file is of a supported image type.
     /// </summary>
-    public bool SoftDeleted { get; set; }
+    [NotMapped]
+    public bool IsImage => FileName.EndsWith("jpg", StringComparison.OrdinalIgnoreCase)
+                        || FileName.EndsWith("jpeg", StringComparison.OrdinalIgnoreCase)
+                        || FileName.EndsWith("bmp", StringComparison.OrdinalIgnoreCase)
+                        || FileName.EndsWith("png", StringComparison.OrdinalIgnoreCase)
+                        || FileName.EndsWith("jfif", StringComparison.OrdinalIgnoreCase)
+                        || FileName.EndsWith("jif", StringComparison.OrdinalIgnoreCase)
+                        || FileName.EndsWith("gif", StringComparison.OrdinalIgnoreCase);
+
+    /// <summary>
+    /// Returns this object in JSON format.
+    /// </summary>
+    /// <returns>
+    /// This object serialized as a JSON object.
+    /// </returns>
+    public override string ToString() => JsonSerializer.Serialize(this);
 }
